@@ -1,0 +1,9 @@
+Assignment-1:
+------------
+1.WAJP to perform Addition on given Two numbers and print output.
+2.WAJP to perform Substraction on given Two numbers and print output.
+3.WAJP to perform Muliplication on given Two numbers and print output.
+4.WAJP to perform Division on given Two numbers and print output.
+5.WAJP to perform Addition on given Three numbers and print output.
+6.WAJP to perform Substraction on given Three numbers and print output.
+7.WAJP to perform Muliplication on given Three numbers and print output.

@@ -1,0 +1,288 @@
+Automation Testing:
+-----------------
+Development:Developers
+Testing:STE[Quality]
+Delivery
+
+Smoke Testing
+Regression Testing:
+Functionl Testing
+
+New Features + Old Features: 
+Bug Fix 
+
+Re-Use:
+
+To test the app manually, without using any automation tool.
+SDLC STLC BLC
+
+To test the app by using automation tools.
+Script:Java Programming Language
+Run:Selenium WebDriver
+
+Open the Chrome Browser
+Ente given URL 
+Enter valid user-name
+Enter valid password
+Click on Login button
+
+30min 10min 
+
+1k:5days
+1k:1day:
+
+Selenium with Java:
+-----------------
+Krishna:
+
+He is a Boy.
+
+Java: Programming Language:C C++ Java Python .net etc...
+
+1.To Develop the different types of App. 
+2.To test the different types of App.
+
+CoreJava[Basic]+ AdvancedJava =Java 
+
+Basic Concepts + OOPS Concepts = CoreJava
+
+void main()
+printf()
+scanf()
+
+syso()
+
+Introducton of Java:
+-------------------
+2 Versions:March[Even]26 and September[Odd]27
+
+Features of Java 
+Diff C , C++ and Java 
+
+Download and Install Java 
+Java Programs 
+
+
+1.Web App:
+Browsers:Chrome IE/Edge FireFox Safari Opera
+System / Third Party
+
+URL:https://www.amazon.in 
+
+Client[Users]Requests-Server[App]Response:
+
+Cloud:
+
+gmail:
+
+Devise:
+Server:
+
+2.DeskTop:
+--------
+Ms-Word
+
+3.Mobile:
+------
+WhatsUp:PlayStore 
+
+4.Enter-Prise:
+-------------
+SBI:Web DeskTop Mobile
+
+OS:Windows,Mac,Linux 
+Browsers:C E F S O 
+
+Java:To write Automation Script.
+
+Core Java:
+---------
+Introduction of Java:
+
+Features Java:
+-------------
+WORA:Re-Usability
+
+WhatsUp:
+
+Procedure Oriented:[C]
+-------------
+Step-by-Step:
+
+
+Object Oriented[OOPS][C++,Java]:
+-----------------
+Class  and Object	
+Class:BluePrint:Virtual
+Object:Physical 
+State Behavoiur Identitification
+
+Fruit:Apple Mango
+Mobile:Oppo Samsung
+Vehicle:
+
+CSE:60 Students
+
+Java Programming Language:
+----------------------
+Write Programs[Code/Scripts]
+Editor's:
+Basic Editor:NotePad, NotePad++,Edit+ etc..
+Advanced Editor:EclipseIDE and IntellijIDE
+Transalation:HL->ML and ML->HL
+Compilation:Checking Errors[Zero Errors/2Errors]
+Excution/Run:OutPut
+
+Compilers:Interpreter and Compiler :C C++ 
+1	2	3	4E;	5	6	7E	8	9	10E 100 
+			Stop
+			Hold 		Hold 		Hold:3Errors
+
+Language:English
+
+HighLevel:English
+Transalators:Interpreter and Compiler
+MachineLevel:Binary[0,1]
+
+Telugu <Transalator> Hindi
+
+Input:2,3 +  1001
+OutPut:5
+
+Input:Program
+Transalation:
+Compilation:
+Execution:
+OutPut
+
+Interpreter:Transalation,
+Compiler:Compilation and Excution
+
+10LOC:C 
+
+Download and Install Java[JDK][JRE,JVM]:
+Basic Editors:
+
+Check your pc already have the Java or not.
+Download and Install Java:
+DeskTop App: .exe 
+
+https://www.oracle.com/in/java/technologies/downloads/#java26
+
+Trail Version:
+Stable Version:
+
+Path Setting:
+
+JDK:JRE JVM 
+
+Write and Compile and Run Java Program:
+--------------------------
+Editor:
+Basic Editor:NotePad, NotePad++,Edit+ etc..
+Advanced Editor:EclipseIDE and IntellijIDE
+
+Program1:WJP to print Hello World! in OutPut
+
+Case-Sensitive: String or string, int or Int
+
+Pre-Define:String int class
+User-Define:Rules:ClassName VariableName Object etc
+
+Green Yellow Red 
+---	  Warning Error
+
+1.Don't start with, Digit or SS[always start with Alphabet].
+$H1ell1o_Wor1ld1 $Hello_World
+2.Don't give the white space between className 
+java_program
+3.Don't use Pre-Define
+4.Valid with Releated
+
+class Krishna
+class Ramesh
+
+class Hello_World
+class Addition 
+==========
+Steps to writ any JAva Program:
+----------------
+Step1:Download ,Install and Set Java Path.
+Step2:Open NotePad or NotePad++ or Edit+ etc..
+Step3:Create Java Class:
+Syntax: class ClassName {[Open]
+Example:class Hello_World
+Step4:Declare the MainMethod
+Ex:public static void main(String args[]) {
+Step5:Write Program/Code[Body] } }[Close]
+Step6:Save Java Program
+Syntax:FileName.java 
+Example:Hello_World.java 
+Step7:Open Command Prompt and Redirect to Java programs folder.
+Step8:Compile Java Program[Checking Errors/Warnings]
+Hello_World.class[ByteCode]
+Command: javac filename.java 
+Step9:Run/Excute Java Program
+java classname
+OutPut:
+Step10:Compare Excepted vs Actuval
+
+SourceCode: .java [Program]
+ObjectCode: .class[Binary Code]
+
+Program1:WJP to print Hello World! in OutPut
+
+class and object
+
+static:class
+non-static:Object
+
+WAJP to perform Addition on given Two numbers and print the Output.
+Input:20,10
+Output:30
+20+10=30
+
+3Lines:3s+3s=6s 100kb  3hrs: 300
+6Lines:6s+6s=12s 200kb 6hrs  300
+
+a=200,b=100,e=300
+c=a+b;
+d=e+a;
+
+k=c+d;
+
+200+100
+300+200
+
+Assignment-1:
+------------
+1.WAJP to perform Addition on given Two numbers and print output.
+2.WAJP to perform Substraction on given Two numbers and print output.
+3.WAJP to perform Muliplication on given Two numbers and print output.
+4.WAJP to perform Division on given Two numbers and print output.
+5.WAJP to perform Addition on given Three numbers and print output.
+6.WAJP to perform Substraction on given Three numbers and print output.
+7.WAJP to perform Muliplication on given Three numbers and print output.
+
+Commands:
+--------
+Microsoft Windows [Version 10.0.26200.8246]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\HP>javac HelloWorld.java
+error: file not found: HelloWorld.java
+Usage: javac <options> <source files>
+use --help for a list of possible options
+
+C:\Users\HP>cd/
+
+C:\>D:
+
+D:\>cd Java Programs
+
+D:\Java Programs>javac HelloWorld.java
+
+D:\Java Programs>java HelloWorld
+Hello World!
+
+D:\Java Programs>
