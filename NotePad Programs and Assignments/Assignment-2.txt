@@ -1,0 +1,9 @@
+Assignment-1:
+------------
+1.WAJP to perform Addition on given Two Float Values and print output.
+2.WAJP to perform Substraction on given Two Float Values and print output.
+3.WAJP to perform Muliplication on given Two Float Values and print output.
+4.WAJP to perform Division on given Two Float Values and print output.
+5.WAJP to perform Addition on given Three Float Values and print output.
+6.WAJP to perform Substraction on given Three Float Values and print output.
+7.WAJP to perform Muliplication on given Three Float Values and print output.

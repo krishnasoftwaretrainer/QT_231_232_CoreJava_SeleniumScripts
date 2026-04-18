@@ -286,3 +286,86 @@ D:\Java Programs>java HelloWorld
 Hello World!
 
 D:\Java Programs>
+-=================
+Garbage Collection:
+------------------
+int a=10; 4bytes
+Memory Allocation and De-Allocation:
+---------------
+Dead Objects: Pointers[C,C++]
+
+Pre-Define:Header Files:#
+				Packages:
+User-Define:
+
+Pre-Define and User-Define:
+------------------[Scanner]
+Package:MultiPile CLass[java.util.Scanner;]
+Class:MultiPile Methods [Scanner]
+Method:MultiPile Statements [nextInt
+MainMethod:Excution
+TestNG:@Test
+
+Character Set: A to Z, a to z, 0 to 9,SS[!@#$%(*&^%]
+
+JIT:Interpreter and Compiler 
+C,C++:Compiler
+Java:Interpreter+Compiler[javac,jvm]+JIT 
+
+WAJP to perform Addition on given Two Float Numbers.
+Numeric:
+Plain Numbers:446 9987 -8753[Integers]->
+byte short int long 
+Point Values:99.99  -8.7[Float Values]->float double
+
+jdk24 jdk25 jdk26 jdk27
+1.Basic Editor
+2.Advanced Editor:IDE:
+EclipseIDE:2025-03 2025-06 2025-09 2025-12 2025-03
+https://www.eclipse.org/downloads/packages/release/2026-03/r
+
+IntellijIDE:
+https://www.jetbrains.com/idea/download/?section=windows
+
+
+Microsoft Windows [Version 10.0.26200.8246]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\Java Programs>javac Addition2NumFloat.java
+Addition2NumFloat.java:9: error: ';' expected
+System.out.println("Addition"+sum)
+                                  ^
+1 error
+
+D:\Java Programs>javac Addition2NumFloat.java
+Addition2NumFloat.java:9: error: ';' expected
+System.out.println("Addition"+sum)
+                                  ^
+1 error
+
+D:\Java Programs>javac Addition2NumFloat.java
+Addition2NumFloat.java:6: error: ';' expected
+float num233.22f;
+            ^
+Addition2NumFloat.java:9: error: ';' expected
+System.out.println("Addition"+sum)
+                                  ^
+2 errors
+
+D:\Java Programs>javac Addition2NumFloat.java
+Addition2NumFloat.java:8: error: cannot find symbol
+sum=num1+num2;
+         ^
+  symbol:   variable num2
+  location: class Addition2NumFloat
+1 error
+
+D:\Java Programs>javac Addition2NumFloat.java
+
+D:\Java Programs>java Addition2NumFloat
+Addition255.55
+
+D:\Java Programs>javac Addition2NumFloat.java
+
+D:\Java Programs>java Addition2NumFloat
+Addition:255.55
