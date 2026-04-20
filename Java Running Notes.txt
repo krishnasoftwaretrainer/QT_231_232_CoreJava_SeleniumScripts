@@ -369,3 +369,68 @@ D:\Java Programs>javac Addition2NumFloat.java
 
 D:\Java Programs>java Addition2NumFloat
 Addition:255.55
+
+Pre-Define and User-Define:
+------------------[Scanner]
+Package:MultiPile CLass[java.util.Scanner;]
+Class:MultiPile Methods [Scanner]
+Method:MultiPile Statements [nextInt
+MainMethod:Excution
+TestNG:@Test
+
+Character Set: A to Z, a to z, 0 to 9,SS[!@#$%(*&^%]
+
+JIT:Interpreter and Compiler 
+C,C++:Compiler
+Java:Interpreter+Compiler[javac,jvm]+JIT 
+
+WAJP to perform Addition on given Two Float Numbers.
+Numeric:
+Plain Numbers:446 9987 -8753[Integers]->
+byte short int long 
+Point Values:99.99  -8.7[Float Values]->float double
+
+jdk24 jdk25 jdk26 jdk27
+1.Basic Editor
+2.Advanced Editor:IDE:
+EclipseIDE:2025-03 2025-06 2025-09 2025-12 2025-03
+https://www.eclipse.org/downloads/packages/release/2026-03/r
+
+IntellijIDE:
+https://www.jetbrains.com/idea/download/?section=windows
+
+Project:
+Package:Rules 
+Class:
+Method:Body
+MainMethod
+
+
+Input:User 2,3
+Process:+ 
+Output:user Error or 5  
+
+FrontEnd:User[Console/Output]
+BackEnd:Developer[Program] 
+
+Static Way:Inside Program[Fixed Values]
+Dynamic Way:At RunTime/Console[Temp Values]
+
+Basic Concepts:
+OOPS Concepts:
+
+InputStream:Read the values from Console.
+OutputStream:Print in Console.
+
+util:Package
+Scanner: Class
+nextInt():Pre-Define Methods 
+nextFloat()
+
+Static Method:Class Name 
+Non-Static:Object Name
+
+Scanner:
+Object:ClassName ObjName =new ClassName();
+		Scanner scan = new Scanner();
+

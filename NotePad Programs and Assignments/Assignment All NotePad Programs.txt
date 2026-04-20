@@ -1,0 +1,83 @@
+Assignment All NotePad Programs:
+-------------------------------
+1.WAJP Add given Two Integer numbers and Print in OutPut[Console] by using Static Method.
+
+2.WAJP Substract given Two Integer numbers and Print in OutPut[Console] by using Static Method.
+
+3.WAJP Multiply given Two  Integer numbers and Print in OutPut[Consol] by using Static Method.
+
+4.WAJP Divide given Two Integer numbers and Print in OutPut[Consol] by using Static Method.
+
+5.WAJP Add given Three Integer numbers and Print in OutPut[Consol] by using Static Method.
+
+6.WAJP Substract given Three Integer numbers and Print in OutPut[Consol] by using Static Method.
+
+7.WAJP Multiply given Three Integer numbers and Print in OutPut[Consol] by using Static Method.
+
+8.WAJP Divide given Three Integer numbers and Print in OutPut[Consol] by using Static Method.
+
+9.WAJP Add given Two Integer numbers and Print in OutPut[Consol] by using Dynamic Method.
+
+10.WAJP Substract given Two Integer numbers and Print in OutPut[Consol] by using Dynamic Method.
+
+11.WAJP Multiply given Two  Integer numbers and Print in OutPut[Consol] by using Dynamic Method.
+
+12.WAJP Divide given Two Integer numbers and Print in OutPut[Consol] by using Dynamic Method.
+
+13.WAJP Add given Three Integer numbers and Print in OutPut[Consol] by using Dynamic Method.
+
+14.WAJP Substract given Three Integer numbers and Print in OutPut[Consol] by using Dynamic Method.
+
+15.WAJP Multiply given Three Integer numbers and Print in OutPut[Consol] by using Dynamic Method.
+
+16.WAJP Divide given Three Integer numbers and Print in OutPut[Consol] by using Dynamic Method.
+
+17.WAJP Add given Two Float numbers and Print in OutPut[Consol] by using Static Method.
+
+18.WAJP Substract given Two Float numbers and Print in OutPut[Consol] by using Static Method.
+
+19.WAJP Multiply given Two  Float numbers and Print in OutPut[Consol] by using Static Method.
+
+20.WAJP Divide given Two Float numbers and Print in OutPut[Consol] by using Static Method.
+
+21.WAJP Add given Three Float numbers and Print in OutPut[Consol] by using Static Method.
+
+22.WAJP Substract given Three Float numbers and Print in OutPut[Consol] by using Static Method.
+
+23.WAJP Multiply given Three Float numbers and Print in OutPut[Consol] by using Static Method.
+
+24.WAJP Divide given Three Float numbers and Print in OutPut[Consol] by using Static Method.
+
+25.WAJP Add given Two Float numbers and Print in OutPut[Consol] by using Dynamic Method.
+
+26.WAJP Substract given Two Float numbers and Print in OutPut[Consol] by using Dynamic Method.
+
+27.WAJP Multiply given Two  Float numbers and Print in OutPut[Consol] by using Dynamic Method.
+
+28.WAJP Divide given Two Float numbers and Print in OutPut[Consol] by using Dynamic Method.
+
+29.WAJP Add given Three Float numbers and Print in OutPut[Consol] by using Dynamic Method.
+
+30.WAJP Substract given Three Float numbers and Print in OutPut[Consol] by using Dynamic Method.
+
+31.WAJP Multiply given Three Float numbers and Print in OutPut[Consol] by using Dynamic Method.
+
+32.WAJP Divide given Three Float numbers and Print in OutPut[Consol] by using Dynamic Method.
+
+33.Write a Java Program To perform all Arthemetic Operations[+ - * /][Calculator] on any Two integer static values and print output.
+
+34.Write a Java Program To perform all Arthemetic Operations[+ - * /] [Calculator] on any Two Float static values and print output.
+
+35.Write a Java Program To perform all Arthemetic Operations[+ - * /] [Calculator] on any Three integer static values and print output.
+
+36.Write a Java Program To perform all Arthemetic Operations[+ - * /] [Calculator] on any Three Float static values and print output.
+
+37.Write a Java Program To perform all Arthemetic Operations[+ - * /] [Calculator] on any Two integer dynamic[Scanner Class] values and print output.
+
+38.Write a Java Program To perform all Arthemetic Operations[+ - * /] [Calculator] on any Two Float dynamic[Scanner Class] values and print output.
+
+39.Write a Java Program To perform all Arthemetic Operations[+ - * /] [Calculator] on any Three integer dynamic[Scanner Class] values and print output.
+
+40.Write a Java Program To perform all Arthemetic Operations[+ - * /] [Calculator] on any Three Float dynamic[Scanner Class] values and print output.
+
+
