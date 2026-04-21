@@ -1,0 +1,8 @@
+Variables and Datatypes Assignment:
+----------
+1.WAJP to Enter and Print the Student deatils to cover all primitive datatypes[Static].
+2.WAJP to Enter and Print the Student deatils to cover all primitive datatypes[Dynamic]
+3.WAJP to Enter and Print the Employee deatils to cover all primitive datatypes[Static].
+4.WAJP to Enter and Print the Employee deatils to cover all primitive datatypes[Static].
+5.WAJP to Enter and Print the Customer deatils to cover all primitive datatypes[Static].
+6.WAJP to Enter and Print the Customer deatils to cover all primitive datatypes[Static].

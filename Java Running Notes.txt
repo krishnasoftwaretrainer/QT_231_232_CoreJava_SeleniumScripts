@@ -434,3 +434,50 @@ Scanner:
 Object:ClassName ObjName =new ClassName();
 		Scanner scan = new Scanner();
 
+
+Variables and DataTypes:
+-----------------------
+int a=10;
+int[Integer]->DataType
+a->Variable
+10>Data[Value][Static]
+
+DataTypes:
+---------
+Syntax:datatype variablename=value;
+Ex:		int a=10;
+		float b=10.5f;
+		
+1.Primitive DataTypes:
+------------------
+At a time only store or hold single value;
+int a=10.5f;
+
+1.Numeric DataTypes:
+-----------------
+A.Plain Number:Without decimal points:
+2345  -647587  09790 -0986453
+
+a.byte:127		1byte 
+b.short:32767 127 2bytes 1byte 
+c.int:             4bytes 3b 
+d.long:127  8bytes 7b 
+
+B.Point Values:556.556 -712.456
+
+a.float: .123456 56.456789456983552
+b.double: .
+
+Memory Numeric DataType
+
+2.Non-Numeric DataTypes:
+--------------------
+Character: 'F' 'g' '5' '&'
+String:"FFFGFfdgd65456#$^%#^"
+
+Boolean:true/false
+
+
+2.Non-Primitive DataTypes:
+String:"FFFGFfdgd65456#$^%#^"
+
