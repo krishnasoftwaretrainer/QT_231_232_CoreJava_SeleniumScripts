@@ -16,7 +16,7 @@ public class Addition2Num_Dynamic
 		int sum=num1+num2;
 		
 		System.out.println("Addiiton: "+sum); //
-		
+		scan.close();
 	}
 
 }

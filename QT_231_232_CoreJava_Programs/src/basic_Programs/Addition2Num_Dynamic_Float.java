@@ -20,7 +20,7 @@ public class Addition2Num_Dynamic_Float {
 		System.out.println("Substraction: "+sub);
 		System.out.println("Multification: "+mul);
 		System.out.println("Division: "+div);
-
+		scan.close();
 	}
 
 }
