@@ -481,3 +481,105 @@ Boolean:true/false
 2.Non-Primitive DataTypes:
 String:"FFFGFfdgd65456#$^%#^"
 
+======================================
+Variable:Container[Space/Memory]:
+-----------
+Declaration and Initialization
+int a;
+int b=20;
+
+Syntax:
+datatype variablename=value;
+datatype variablename=scan.nextMethod();
+int a=10;
+int b=20;
+int c=a+b; 
+
+Index:0 to n-1
+Address:
+Name: 
+
+AI:Yes GitHub Copilet
+
+Types of Variables:
+-----------------
+1.Local Variable:
+Inside Class and Inside MainMethod[Method]
+You can use directly
+
+2.Global Variable:
+Inside Class and OutSide of MainMethod[Method]
+A.Static:ClassName[Not required Object]
+B.Non-Static[Instance][Object]
+Syntax to create Object:
+-------
+ClassName ObjectName = new ClassName();
+Scanner scan=new Scanner();
+Variables_Types vb=ne Variables_Types();
+
+3.Final Variable:
+
+Java Tokens:
+-----------
+1.Java KeyWords/Pre-define/Library:
+-----------------------------
+Only Use 
+int Int integer 
+
+2.Java Identifiers:
+-----------------
+Prasad 
+
+int a=10;
+
+User-Defined: Rules 
+VariableNames
+ClassName
+PackageName 
+MethodNames
+
+3.Java Literals:
+--------------
+int a=10; Integer Literal
+float b=20.33f; Float Literal
+
+4.Java Constants:
+----------------
+Fixed Value,
+final int passmarks=35;
+final String instName="Quality Thought";
+
+5.Java DataTypes:
+
+6.Java Variables:
+
+All Identifiers are not Variables:True 
+All Variables are Identifiers:True
+
+All Literals are not Constants:True  
+All Constants are Literals:True 
+
+Java Comments:
+------------
+Not Excutable Statements.
+User frendly Messages 
+
+1.Single-Line: //
+2.Multi-Line: /*   */
+
+Java Errors:
+-----------
+1.Compile-Time:Syntax Errors 
+
+2.Run-Time: Exceptions 
+
+Java Type Conversion:
+---------------------
+Operators in Java
+Conditional
+Looping
+Jumping
+Arrys
+Strings 
+
+OOPS
