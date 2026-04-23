@@ -583,3 +583,92 @@ Arrys
 Strings 
 
 OOPS
+====================
+
+Good Morning..
+
+1.Compile-Time
+2.Run-Time
+3.Logical Errors:
+5,3 + ER:8	AR:2
+
+Type Conversion or Type Casting:
+------------------------------
+int a=10.5; [Float to Int]
+float b=20; [Int to Float]  99.99-100%
+
+1.Implicit/Automatic/Widening:
+---------------[Compiler]
+Low datatype to High datatype
+byte-short-char-int-long-float-double
+99 to 99.0 [No data loss]
+
+2.Explicit/Manual/Narrowing:
+-------------[Developer/ATE]
+High datatype to low datatype
+double-float-long-int-char-short-byte
+99.99 to 99 [Data Loss]
+
+Numeric:
+Plain: byte short int long 99
+Point:float double 99.0
+
+char '9' '@' ->int float 9.0
+
+ASCII Values:
+------------
+
+Selenium Script:Java Concepts 
+Selenium WebDriver:Automation Tool 
+
+CI/CD:Jenkins
+
+Writing Code->GitHub->Jenkins->Build[URL]->Result[P/F]
+Selenium Script[Push]->GitHub->Jenkins->Results[P/F]
+
+Jenkins PipeLine[Triger] 9pm to 11pm 
+9am:Pass/Fail 
+
+100TC:40TC:100TS
+
+
+
+Operators in Java:
+----------------
+1.Arthametic 
+2.Relational
+3.Logical
+4.Assignment
+5.Unary
+6.Ternary
+7.Bitwise
+8.Shift
+
+1.Arthametic Operators:
+---------------------
++ - * / %
+
+Division: 10/3 =3 [Coffiecent]
+Modules Division: 10%3: 1 [Remainder]
+
+Priority: BODMAS
+--------
+High: * / %
+Low: + -
+
+Input:Integer or Point Values 
+OutPut:Integer or Point Values
+
+2.Relational Operators:
+---------------------
+< <= > >= == !=
+
+55>75:False 
+55<75:True
+
+55.3>55.5:False
+
+Input:Integer or Point Values 
+OutPut:Boolean 
+
+Example PRogram:
