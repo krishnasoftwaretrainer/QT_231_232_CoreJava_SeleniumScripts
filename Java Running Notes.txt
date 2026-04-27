@@ -760,3 +760,120 @@ Convert Integer to Binary
 Convert Binary to Integer
 
 LCM:10 12 (a&b)
+===============
+Sequentional Flow Statements:
+-------------------
+Compilation
+Excution:1 to 10
+
+2
+3
+1
+4
+5
+
+Control Flow Statements in Java:
+----------------------------
+Compilation
+1
+2
+3
+4
+5
+
+1.Conditional/Branching/Selection Statements:
+------------
+Defination
+Syntax
+Example
+FlowChart
+Explanation
+OutPut:True/False 
+int a=50;
+if(a>10) //F T
+syso("Yes"); //True[Positive][Selected][Mail]
+syso("NO"); //False[Negative][Not-Selected]
+ 
+True:TBS;
+False:FBS 
+
+A.if():
+a.Simple-if():
+--------------
+Pass
+Select
+TBS:Pass 
+Null[Empty]
+
+Syntax:
+-------
+if(Condition) //T/F
+{
+TBS;
+}
+
+b.if-else:
+---------
+TBS:Pass[Selected]
+FBS:Fail[Not-Selected]
+Syntax:
+-------
+if(Condition) //T/F
+{
+TBS;
+}
+else
+{
+FBS;
+}
+
+
+c.else-if or ladder-if:
+-------------------
+Pass/Fail
+A B C D Fail
+Syntax:
+-----
+if(Condition-1) //F
+{
+TBS;
+} //Exit 
+else if(Condition-2) //T/F
+{
+TBS;
+} //Exit 
+else if(Condition-3) //T/F 
+{
+TBS;
+}//Exit
+else
+{
+FBS;
+}
+
+<=85: 85
+<85: 84
+
+>=85:85  85=85 86>85
+>85: 86  86>85
+
+>=30k && <=50k
+<35[T] && >=0[F]  34 -10 -100
+
+
+d.Nested-if
+
+B.switch()
+
+2.Looping/Iterative Statements:
+-----------------
+a.for()
+b.while()
+c.do-while()
+d.Nested Loops
+
+3.Jumping Statements:
+----------------
+a.break
+b.Continue
+c.Return 
