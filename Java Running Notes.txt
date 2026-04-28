@@ -782,7 +782,9 @@ Compilation
 5
 
 1.Conditional/Branching/Selection Statements:
-------------
+------------True/False
+Condition:True
+else:False
 Defination
 Syntax
 Example
@@ -827,6 +829,14 @@ else
 FBS;
 }
 
+Positive or Negative:
+-------------------
+-11  22
+
+			-5 -4 -3 -2 -1 0 1 2 3 4 5
+
+marks>=35 && marks<=100[T T]  25
+marks<35 && marks>=0
 
 c.else-if or ladder-if:
 -------------------
@@ -859,11 +869,67 @@ FBS;
 
 >=30k && <=50k
 <35[T] && >=0[F]  34 -10 -100
+Positive or Negative Number
+Blood Donation Eligibility
+
+d.Nested-if:
+-----------
+Syntax:
+-------
+if(Condition-1) //Outer T T F
+{
+if(Condition-2) //Inner T F
+{
+Body; [Sec if Body] TBS 
+}
+else
+{
+FBS; [Inner Condition else]
+}
+else
+{
+FBS; [Outer Condition else]
+}
+
+33 22
+22 33
+
+if(num1>num2) num1 num2 
+
+5 7 2:
+-----
 
 
-d.Nested-if
 
-B.switch()
+
+B.switch():Comparison
+--------------
+Syntax:
+--------
+switch(Input) F 
+{
+case 1: TV 
+{
+Body;
+}
+case 2: L
+{
+Body;
+}
+case 3:F 
+{
+Body;
+}
+case 4: AC CB 
+{
+Body;
+}
+deafult :
+{
+FBS; Select only above 4
+}
+
+
 
 2.Looping/Iterative Statements:
 -----------------

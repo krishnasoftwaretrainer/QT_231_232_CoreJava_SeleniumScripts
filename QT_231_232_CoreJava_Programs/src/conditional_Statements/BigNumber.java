@@ -2,7 +2,8 @@ package conditional_Statements;
 
 import java.util.Scanner;
 
-public class BigNumber {
+public class BigNumber 
+{
 
 	public static void main(String[] args) {
 		Scanner scan=new Scanner(System.in);
