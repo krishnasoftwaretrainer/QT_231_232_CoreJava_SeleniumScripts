@@ -1,11 +1,12 @@
-package conditional_Statements;
+package Looping_Statements;
 import java.util.Scanner;
-public class Calculator_Switch {
+public class Calculator_Switch_Loop {
 
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-		
+		for(int i=1;i<=4;i++)
+		{
 		System.out.println("Enter the first number: ");
 		int num1 = sc.nextInt();
 		System.out.println("Enter the second number: ");
@@ -76,7 +77,7 @@ public class Calculator_Switch {
 		{
 			System.out.println("Invalid choice");
 		}
-		
+		}
 		/*
 		System.out.println("Enter your choice");
 		char choice = sc.next().charAt(0);

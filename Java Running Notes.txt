@@ -929,6 +929,61 @@ deafult :
 FBS; Select only above 4
 }
 
+5/2=2
+5%2=1
+
+2.Looping/Iterative Statements:
+-----------------
+Loop:
+
+a.for(): Counted
+------
+Start:5 a<=10
+End:10 a=5;a++;a=6 a-- a=4
+
+Fixed:6
+
+for(i=10;i>=1;i--) i++
+{
+syso(i);
+}
+
+10>=1 9>=1.....1>=1 0>=1
+10 9.......1
+10>=1 11>=1..
+10 11
+Syntax:
+------
+for(InitialValue;Condition;Increment/Decrement)
+{
+Body; //Fixed
+}
+
+5 * 1 = 5
+5 * 2 = 10
+
+b.while():Un-Counted/Infinet/Conditional
+--------
+Syntax:
+-----
+while(true)
+{
+Body;
+}
+
+Syntax:
+------
+InitialValue;
+while(Condition)
+{
+Body;
+Increment/Decrement;
+}
+
+
+ATM:
+Bank Employee:9 to 6pm for(int i=9am;i<=6pm;i++)
+
 
 
 2.Looping/Iterative Statements:
