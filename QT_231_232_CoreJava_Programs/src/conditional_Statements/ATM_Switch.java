@@ -7,6 +7,9 @@ public class ATM_Switch
 		int balance = 6000, withdraw, deposit;  
         Scanner sc = new Scanner(System.in);  
           
+       // for(int i=1;i<=100;i++)
+        while(true)
+        {
          
             System.out.println("Automated Teller Machine");  
             System.out.println("Choose 1 for Withdraw");  
@@ -65,7 +68,7 @@ public class ATM_Switch
         } 
         
 	}
-
+}
 
 
 

@@ -962,7 +962,7 @@ Body; //Fixed
 5 * 1 = 5
 5 * 2 = 10
 
-b.while():Un-Counted/Infinet/Conditional
+bb.while():Un-Counted/Infinet/Conditional
 --------
 Syntax:
 -----
@@ -986,12 +986,66 @@ Bank Employee:9 to 6pm for(int i=9am;i<=6pm;i++)
 
 
 
-2.Looping/Iterative Statements:
------------------
-a.for()
-b.while()
-c.do-while()
-d.Nested Loops
+for(int i=1;i<=10;i++)//1<=10:true
+while(true)
+
+Entry Control:
+------------
+for() while()
+
+Exit Control:
+--------
+do-while()
+
+c.do-while():
+------------
+Syntax:
+------
+InitialValue; 1
+do
+{
+Body;1
+Increment/Decrement; 2
+}while(Condition);
+
+
+d.Nested for Loop:
+------------
+SR MC 
+MR SC 
+
+MR MC:
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+R*C=5*5=25
+
+Syntax:
+------
+for()  Outer Loop[Rows:3] 
+{
+for() Inner Loop[Columns:6]
+{
+Body;
+}
+}
+		/* 5 	4	3	2	1
+		 * 5	4	3	2	1
+		 * 5	4	3	2	1
+		 * 5	4	3	2	1
+		 * 5	4	3	2	1
+		 */
+for(int i=5;i>=1;i--) 5>=1 4>=1
+{
+for(int j=5;j>=1;j--) 5>=1 4>=1 3>=1.. 0>=1
+{
+syso(j);
+} 5
+}
+
+5
 
 3.Jumping Statements:
 ----------------

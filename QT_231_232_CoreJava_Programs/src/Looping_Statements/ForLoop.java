@@ -70,16 +70,13 @@ public class ForLoop {
 		} */
 		
 		//5th Table
-		/*
-		for(int i=1;i<=20;i++) //1<=20:true 
+		
+		for(int i=1;i<=10;i++) //1<=20:true 
 		{
 			System.out.println("10 * " +i +" = " + (10*i));
-		} */
+		} 
 		
-		for(int i=1;i<=10;i++)
-		{
-			System.out.println(i);
-		}
+		
 	
 
 	}
