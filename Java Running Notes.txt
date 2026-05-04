@@ -1050,5 +1050,84 @@ syso(j);
 3.Jumping Statements:
 ----------------
 a.break
-b.Continue
+b.continue
 c.Return 
+
+Interpreter and Compiler 
+break	and continue
+Hard and Soft Assertions
+
+1 2 3 4 5[break] 6 7  8 9 10->Interpreter
+
+1 2 3 4 5[Hold] 6 7  8[Hold] 9 10->Compiler
+2Errors
+
+10TC 
+R: break; continue;
+L: 
+C 
+P 
+LO 
+
+V V  break;
+V IV continue;
+IV V
+IV IV 
+
+15TC :14P 1F 
+
+Assertions:
+Hard:break
+Soft:Continue 
+ 
+===============================
+
+Arrays in Java:
+--------------
+
+int htno1=101;  1k 
+int htno2=102;  Normal Variable.
+int htno3=103;
+
+Same datatype:Arrays 
+
+Collection of elements/values of Same datatype.
+
+float: 11.0
+
+int 11.5
+
+Syntax:
+-----
+datatype variablename=value;
+datatype variablename=scan.nextMethod();
+
+datatype variablename[]={Value1,Value2,....};
+
+Types of Arrays:
+---------------
+1.Single or One Dimension Array.
+2.Two or Double Dimension Array.
+3.Multi Dimension Array.
+
+for:SR MC or MR SC  and nested-for 
+for(int i=5;i<=10)
+
+Index:0 to n-1  10 
+	  0 to 9
+	  
+Advantages:
+---------
+
+
+Dis-Advantages:
+Same DataType
+Fixed Size:5
+
+Student Information:
+---------------
+htno sname marks percentage
+int  String  int flot
+
+Object Array:
+
