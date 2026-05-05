@@ -6,7 +6,7 @@ public class Single_One_DimensionArray_Static {
 	{
 		//data type[] arrayName = {value1, value2, value3, value4, value5};
 		/*
-		int htno[]= {101,102,103,104,105};
+		int htno[]= {101,102,103,104,105};  //Static Values 
 		
 		for(int i=0;i<5;i++)  //0<5T 1<5T 5<5F
 		{
