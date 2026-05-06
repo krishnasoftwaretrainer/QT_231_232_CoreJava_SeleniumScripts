@@ -1163,4 +1163,44 @@ int div[][]=a[][]/b[][];
 1	2			1	2
 3	4		*	3	4 (2*2)
 5	6 (3*2) 
+========================
+Non-Primitive:
+-------------
+Arrays 
+
+Strings in Java:
+------------ A a 1 @#$$ 'B'
+Collection of Characters
+
+"RETERrtyrt34646%$$%%$"
+
+Stati and Dynamic:
+--------------
+Syntax: 
+datatype variablename="Value";
+String email="krish123@gmail.com";
+next()Rama Rao 
+nextLine():Rama Rao 
+
+String Pool Concept:
+----------------
+== equalsTo equalsIgnoreCase 
+------------------------------------
+Basic Concepts:
+------------
+
+OOPS Concepts:
+------------
+Class and Object
+Methods:
+Constructors
+Inheritance
+Polimorphism
+Method OverLoading
+Method OverRiding
+Data Abstraction
+Interface
+Encapsulation
+Garbage Collection
+Exception Handling
 
