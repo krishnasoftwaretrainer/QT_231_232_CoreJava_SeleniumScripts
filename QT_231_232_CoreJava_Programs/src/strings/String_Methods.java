@@ -38,14 +38,14 @@ public class String_Methods {
 		
 		System.out.println(name.concat(surname)); //KrishnaRao
 	    
-				//6.String Replace() method
+		//6.String Replace() method
 		
 		String name="Krishna Rao";
 		System.out.println("Actual String: "+name);
 		//System.out.println("Replaced String: "+name.replace('a', 'A'));
 		System.out.println("Replaced String: "+name.replace("Krishna", "Rama"));
 		
-		//7. Copy Value Method
+		//7. Copy Value and valueOf Method
 		
 		String S1="ABCDEFG";
 		String S2="";
@@ -61,11 +61,14 @@ public class String_Methods {
 		
 		String name="  ";
 		System.out.println(name.isEmpty()); //false
-		 */
+		 
 		
 		//String  Contains() method
-		String url="https://www.saucedemo.com";
+		String url="https://www.saucedemo.com/inventory.html";
 		System.out.println(url.contains("inventory")); 
+	*/
+		
+	
 	}
 	
 	

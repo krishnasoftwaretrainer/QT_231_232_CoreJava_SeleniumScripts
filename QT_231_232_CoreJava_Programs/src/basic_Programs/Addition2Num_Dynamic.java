@@ -6,12 +6,13 @@ public class Addition2Num_Dynamic
 {
 	public static void main(String[] args) 
 	{
-		
+		//ClassName ObjectName=new ClassName();
 		Scanner scan = new Scanner(System.in);
+		
 		System.out.print("Enter First Value:");
 		int num1=scan.nextInt();
 		System.out.print("Enter Second Value:");
-		int num2=scan.nextInt();
+		int num2=scan.nextInt();  //Static or Instance Method
 		
 		int sum=num1+num2;
 		

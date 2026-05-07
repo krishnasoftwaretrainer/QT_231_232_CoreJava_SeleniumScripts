@@ -1204,3 +1204,89 @@ Encapsulation
 Garbage Collection
 Exception Handling
 
+Inside Class[Methods] and OutSide MainMethod
+
+OOPS Concepts:
+-------------
+Re-Usability
+Readabulity
+Security
+
+{ }
+{ }
+
+Class and Object:
+---------------
+
+Methods in Java:
+--------------- + - * / 
+Block of Code[Set of Lines]
+{ 
+Body of Method;
+}
+
+Addition:10LOC  10LOS 
+Duplicate Code:
+Re-Usability
+
++ 2*10 2 100/2=50 5k-1k=4k 
+
+Specific Pur 
+
+Methods 2 Types:
+-----------
+1.Pre-Define{Built-in]:Use 
+nextInt(); nextLine(); length()
+Scanner scan=new Scanner();
+scan.nextInt();
+
+2.User-Define:
+-------------
+
+1.Static Method:static:Cal through ClassName or VariableName
+name.length();
+
+2.Instance Method:Call through ObjectName
+
+
+Declare the Method: Signature
+---------Syntax
+
+AccessSpecifier ReturnType MethodName(Parameters_List)
+{
+Body;
+}
+public static void main(String[] args)->Static
+
+static X Method: Static or Instance 
+
+public class Scanner
+{
+public void nextInt()->Instance[Object]
+{
+Body;
+}
+public static void nextFloat()
+{
+Body;
+}
+public static void main(String[] args)->Static
+{
+Scanner scan=new Scanner();
+scan.nextInt();
+Scanner.nextFloat();
+}
+
+Procedure Oriented Programming Language:
+C 
+
+Object Oriented Programming Language:
+
+C++ Java Python .net JS TS 
+
+4 Pillers:
+---------
+Inheritance
+Polimorphism
+Data Abstraction
+Encapsulation
