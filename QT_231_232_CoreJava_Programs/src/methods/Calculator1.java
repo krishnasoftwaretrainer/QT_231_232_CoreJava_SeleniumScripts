@@ -4,28 +4,28 @@ public class Calculator1
 {
 	//Accessmodifier returntype methodname(parameterlist)
 	
-	public void Addition() //Static or Instance method
+	public void Addition() //Instance method
 	{
 		int a=10,b=20;
 		int sum=a+b;
 		System.out.println("Addition is: "+sum);
 	}
 	
-	public static void Subtraction()
+	private static void Subtraction() //Static method:Classname.methodname();
 	{
 		int a=20,b=10;
 		int sub=a-b;
 		System.out.println("Subtraction is: "+sub);
 	}
 	
-	public void Multiplication()
+	protected void Multiplication()
 	{
 		int a=10,b=20;
 		int mul=a*b;
 		System.out.println("Multiplication is: "+mul);
 	}
 	
-	public static void Division()
+	 static void Division()  //default 
 	{
 		int a=20,b=10;
 		int div=a/b;

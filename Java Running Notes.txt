@@ -1190,23 +1190,6 @@ Basic Concepts:
 ------------
 
 OOPS Concepts:
-------------
-Class and Object
-Methods:
-Constructors
-Inheritance
-Polimorphism
-Method OverLoading
-Method OverRiding
-Data Abstraction
-Interface
-Encapsulation
-Garbage Collection
-Exception Handling
-
-Inside Class[Methods] and OutSide MainMethod
-
-OOPS Concepts:
 -------------
 Re-Usability
 Readabulity
@@ -1218,7 +1201,7 @@ Security
 Class and Object:
 ---------------
 
-Methods in Java:
+Methods in Java: Functions 
 --------------- + - * / 
 Block of Code[Set of Lines]
 { 
@@ -1277,6 +1260,62 @@ scan.nextInt();
 Scanner.nextFloat();
 }
 
+Method Re-Usability:
+--------------------
+1.Same Package and Same Class 
+	Inside Package and Inside Class
+	methods and Calculator1
+	
+2.Same Package and Different Class 
+	Inside Package and OutSide Class 
+	methods and Calculator2
+	
+3.Different Package and Different Class 
+	OutSide Package and OutSide Class
+	basic_Programs and Calculator3
+	import methods
+
+WORA:
+
+Readabulity
+Re-Usability
+
+AccessSpecifier or Modifyers:
+------------------------
+public:
+Inside Package and Inside Class
+Inside Package and OutSide Class 
+OutSide Package and OutSide Class
+	
+private:Class Level
+Inside Package and Inside Class
+
+protected:Package Level
+Inside Package and Inside Class
+Inside Package and OutSide Class 
+
+default: Same as Protected
+
+1.Pre-Defined:
+
+2.User-Defined:
+-----------
+1.WithOut ReturnType and WithOut Parameters 
+2.WithOut ReturnType and With Parameters
+3.With ReturnType and WithOut Parameters
+4.With ReturnType and With Parameters
+
+public void Addition(int a,int b,int c) //User-Defined
+{
+Body;
+int a=10,b=20,c=30; Variables [Static]
+Declared and Initialized
+Method Calling 
+}
+
+void is returntype but it does not returns any value.
+int float double String: return
+
 Procedure Oriented Programming Language:
 C 
 
@@ -1290,3 +1329,6 @@ Inheritance
 Polimorphism
 Data Abstraction
 Encapsulation
+
+Constructors in Java:
+-------------------
