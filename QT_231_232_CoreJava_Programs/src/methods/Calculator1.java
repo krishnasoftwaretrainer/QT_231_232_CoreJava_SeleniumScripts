@@ -40,5 +40,9 @@ public class Calculator1
 		Calculator1.Subtraction(); //Classname.methodname();
 		cal.Multiplication();
 		Calculator1.Division();
+		
+		
+		//Calculator1.Addition();
+		cal.Subtraction();
 	}
 }

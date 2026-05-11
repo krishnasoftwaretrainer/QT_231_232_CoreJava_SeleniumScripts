@@ -1330,5 +1330,71 @@ Polimorphism
 Data Abstraction
 Encapsulation
 
+
 Constructors in Java:
 -------------------
+Block of Code 
+{
+Body;
+}
+Methods: Class Name and Method Name:Different
+ReturnType:Manditory[Void]
+class ClassName:Sample
+Static and Instance:
+
+AccessSpecifier ReturnType MethodName():Sample1 
+MainMethod()
+{
+Create Object
+Object.Method();
+
+
+
+Constructor:Class Name and Method Name:Same 
+ReturnType:Optional 
+class Sample
+AccessSpecifier ConstructorName():Sample
+
+Types of Constructors:
+------------------
+1.No Arguments/Parameters_Constructor: ()
+2.With Parameters or Arguments: (int a, double b)
+3.Default_Constructor
+
+Inheritance in Java:
+------------------
+Re-Usebulity
+
+Method1:Parent Class:Existing/Base/Super
+
+Method2:Child Class:New/Derived/Sub 
+
+Defination:Child class acquires/use the propertes from Parent class.
+
+extends: Inheritance
+
+Parent znd Child relation 
+
+Is-A: 
+
+Car[Child] Is-A Vehicle[Parent]
+Lorry is a Vehicle
+
+Banana is a Fruit
+Apple is a Fruit[Parent]
+
+SBI is a Bank
+HDFC is a Bank 
+
+Sample Inheritance Example
+
+1.Single-Level Inheritance
+2.Multi-Level Inheritance:P->Ch1->Ch2 
+3.Hierarchical Inheritance
+4.Multiple Inheritance
+5.Hybrid Inheritance
+
+GP->P  2
+P->C/P 1 
+C->C/P 3
+C->C 
