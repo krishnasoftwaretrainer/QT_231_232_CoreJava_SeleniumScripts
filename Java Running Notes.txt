@@ -1388,13 +1388,55 @@ HDFC is a Bank
 
 Sample Inheritance Example
 
-1.Single-Level Inheritance
+1.Single-Level Inheritance:OP and OC 
 2.Multi-Level Inheritance:P->Ch1->Ch2 
-3.Hierarchical Inheritance
-4.Multiple Inheritance
+3.Hierarchical Inheritance:MC SP 
+4.Multiple Inheritance:MP SC 
 5.Hybrid Inheritance
+SL & ML:Hybrid
+ML &  MI:NO 
 
+Parent:Browser Config[5LOS]
+Child1:TC1[VU VP]  extends Parent
+Child2:TC2[VU IVP] extends Parent
+Child3:TC3[IVU VP] extends Parent
+------
+Child10:TC10 
+
+Yes:
+extends:No 
+implements:Yes 
 GP->P  2
 P->C/P 1 
 C->C/P 3
 C->C 
+
+Single-Level:One Parent with One Child 
+
+child extends parent
+
+10TC:GC MF ME 
+1TC:GC 
+2TC:GC 
+3TC:GC 
+
+Polymorphism in Java:
+-------------------
+Poly+Morphism=Many+Forms
+
++:2 3 4 5 
+
+1.CompileTime[Static]:Method OverLoading
+2.RunTime[Dynamic]:Method OverRiding
+
+Method OverLoading:
+-----------------
+Same Method behavious different ways.
+method name is same parameters are different
+
+1.Number of Parameters 
+2.DataTypes 
+3.Order of Parameters 
+
+Metho OverRiding:
+--------------
