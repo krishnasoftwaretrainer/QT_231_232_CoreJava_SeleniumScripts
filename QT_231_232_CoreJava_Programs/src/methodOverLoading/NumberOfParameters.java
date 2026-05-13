@@ -38,6 +38,7 @@ public class NumberOfParameters
 		np.Parameters("Krishna");
 		np.Parameters(101, 95);
 		np.Parameters(10, 20, 30);
+		
 	}
 	
 

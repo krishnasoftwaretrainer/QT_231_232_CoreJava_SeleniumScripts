@@ -1435,8 +1435,67 @@ Same Method behavious different ways.
 method name is same parameters are different
 
 1.Number of Parameters 
-2.DataTypes 
+2.Different DataTypes
 3.Order of Parameters 
+
+Arguments:
 
 Metho OverRiding:
 --------------
+Inheritance Concept:Parent and Child
+
+Child overrides the parent features.
+
+Inheritance:Parent along with Child
+Method OverRiding:
+Data Abstraction:No Implementation
+
+Ameerpet to Secunderbad:
+Inheritance:Metro Train 
+Method OverRiding:Metro x Bike 
+Data Abstraction:Bus 
+
+RBI:Parent:4% 
+
+SBI:Child1:5%
+HDFC:Child2:6%
+ICICI:Child3:7% 
+
+TRAI:Airtel Jio BSNL Voda Idea
+
+Data Abstraction in Java:
+-----------------------
+abstract methods: empty methods 
+-----------
+No Implementation[]No Body/Empty Body]:Parent
+Implementation:Child 
+Parent:What?
+Child:How?
+
+Child:BackEnd:How[Implementation]
+Parent:FrontEnd:What[Empty]
+
+Car:What? How?m Owner Mechanic 
+Calls or Messages:Hi Cal 
+Online Payments:
+ATM:
+
+Developers:
+Test Engineers:
+
+Data Abstraction: Hide the Implementation
+How we achive the data abstraction 
+
+1.abstract method[0 to 100%]
+abstract methods and Non-abstract method
+No-Implementation and Implementation
+Locked Apps and Open Apps 
+
+Apps Lock:0 to 100%
+
+2.Interface[100%]
+Only have the abstract methods [No-Implementation]
+Screen Lock:100% Security
+
+1.100% Data Abstraction
+2.MultiPile Inheritance
