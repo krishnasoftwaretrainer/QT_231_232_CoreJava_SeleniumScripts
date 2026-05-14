@@ -1463,6 +1463,7 @@ ICICI:Child3:7%
 
 TRAI:Airtel Jio BSNL Voda Idea
 
+
 Data Abstraction in Java:
 -----------------------
 abstract methods: empty methods 
@@ -1499,3 +1500,55 @@ Screen Lock:100% Security
 
 1.100% Data Abstraction
 2.MultiPile Inheritance
+
+abstract keyword:0 to 100%
+abstract methods: No Implementation
+Normal methods:Implementation
+
+
+interface:100%
+abstract:No Implementation
+
+abstract class and abstract method:Yes 
+abstract class and Normal methods:Yes 
+
+Normal Class and Normal methods:Yes 
+Normal Class and abstract method:No 
+
+Interface in Java:
+-----------------
+1.To achive 100% data abstraction:No-Implemented Methods 
+2.To achive Multiple Inheritance
+
+Syntax:
+------
+interface interfaceName;
+
+Encapsulation in Java:
+--------------------
+Bank Account:
+AccName:
+Balance:
+AccNumber:
+
+bank:Package[SBI]
+Customer:Class1
+private AccName:
+private Balance:
+private AccNumber:
+Same Package and Same Class  
+
+10K:Debited but not Credited into reciver account.
+
+10k+10k=20k 
+
+Bank: 
+
+Employee:Class2 
+
+Customer2:Class3 
+
+getter[Read] and setter[Update]:
+
+Garbage Collection
+Exception Handling
