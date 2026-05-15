@@ -1550,5 +1550,42 @@ Customer2:Class3
 
 getter[Read] and setter[Update]:
 
-Garbage Collection
-Exception Handling
+
+Garbage Collection in Java:
+--------------------------
+Allocate the Memory
+De-Allocate the Memory
+
+c & c++: Pointers Concept
+malloc realloc free 
+
+Dead Objects:
+Developers: Write some code 
+
+Garbage Collection:
+
+Exception Handling:
+-----------------
+Errors in Java:
+--------------
+1.Compile Time:
+2.Run Time: Exceptions
+1	2	3	4	5[Exception]  6	 7	8	9	10 
+1 to 10 except 5:continue or Compiler or With 
+1 2 3 4:break or Interpreter or Without 
+
+Interpreter & Complier
+break & continue
+WithOut Handling & With Handling
+
+1.Checked Exception:CompileTime 
+throws
+try[witch statements have the exception] throw 
+catch:[Handle or Catch block]
+
+2.Un-Checked Exception:RunTime
+try & catch
+
+1.ArthameticException
+2.ArrayIndexOutOfBoundException
+3.NullPointerException

@@ -12,6 +12,9 @@ public class Employee
 		System.out.println(cus.getacname());
 		System.out.println(cus.getAccnum());
 		System.out.println(cus.getbalance());
+		
+		int a;  //Dead Object 
+		int b;
 	}
 
 }
