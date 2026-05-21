@@ -1,0 +1,72 @@
+Batch 231 and 232 Selenium:
+------------------------
+Software Testing:
+--------------
+Role:STE,MTE,ATE,SDET or TE or QA 
+Resp:Manually and Automation
+
+SDLC STLC/ATLC  BLC MTE ATE 
+
+Test Cases->Automation Script->Run[Tool]
+->Result[P/F]
+BLC:R-ST-RT-C/RO 
+
+Automation Script:
+
+Washing Cloths:Manual[Human Being] and Automation[Washing Machine]
+
+100% of Test the App:Manually:Yes 
+100% of Test the App:Automation:No 
+
+10:MTE->ATE[Y/N]
+4:MTE 
+ATE:->MTE 
+
+Selenium with Java:
+
+Non IT:
+
+WhatsUP:10Y
+
+Identify/Find the manual test cases fro Automation:
+100TC:60ATC:100ATC 
+40TC:
+
+End-To-End:100MTC:60ATC:100ATC
+
+Regression Testing: 
+
+Core Java Concepts:Done 
+
+Selnium Tool:Components
+
+1.IDE:Record and Play 
+2.RC:
+3.WebDriver:Yes [2.o]
+4.Grid:Parallel Testing
+Parent[Hub] and Child[Node]
+
+Selenium WebDriver with Java:
+--------------------------
+Write Selnium Script:
+
+Environment SetUp:
+---------------
+Selenium WebDriver: Automation Tool[V:4.43][.jar] Download and Configure
+
+Java[JDK]:Programming Language[V:jdk26][.exe] Download and Install
+
+Eclipse,Intellij:IDE[V:2026-03][.exe] Download and Install
+
+Browser's:Chrome[V:148] MS-Edge FireFox etc...
+Driver:Chrome Driver Edge Driver FireFox Driver
+
+Selnium Concepts:
+----------------
+Write and Run First Selenium Script
+
+4.3V 
+
+Selenium Script:IDE:Run->Driver->Browser Chrome
+
+10 Students:Open FB LoginPage
