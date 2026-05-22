@@ -59,6 +59,7 @@ Java[JDK]:Programming Language[V:jdk26][.exe] Download and Install
 Eclipse,Intellij:IDE[V:2026-03][.exe] Download and Install
 
 Browser's:Chrome[V:148] MS-Edge FireFox etc...
+
 Driver:Chrome Driver Edge Driver FireFox Driver
 
 Selnium Concepts:
@@ -70,3 +71,65 @@ Write and Run First Selenium Script
 Selenium Script:IDE:Run->Driver->Browser Chrome
 
 10 Students:Open FB LoginPage
+
+Automation Testing: To test the given app by using Automation tools. 
+
+Selenium WebDriver Tool:
+
+Selenium Script
+Run
+Analysis Result:Pass/Fail
+
+100TC:One by one: Human
+100TS:Single Click:Tool 
+
+Environment SetUp:
+------------
+Current Version odf Selenium WebDriver:4.43.0
+
+Functionl Testing
+Regression Testing
+Smoke Testing:Build is Stable or not 
+
+Excepted Result:
+Actuval Result:
+Sam:PAss 
+Not Same:Fail 
+
+URL Verification:
+Excepted URL:https://www.saucedemo.com/
+Actuval URL:https://www.saucedemo.com/
+Pass 
+
+Title Verification:
+Excepted Title:
+Actual Title:
+
+First Selenium Script:
+------------------
+Scenario1:Verify Smoke Testing
+URL: https://www.saucedemo.com/ 
+
+Swag Labs: E-Commerce Domain
+
+Manu Steps Covert into Selenium Script
+Run the Script and Check the Result
+
+1.Open Chrome/Edge/FireFox Browser
+2.Maximize Chrome/Edge/FireFox Browser
+3.Close Chrome/Edge/FireFox Browser
+
+Scenario1:
+---------
+→Launch the Chrome browser.
+→Maximize the browser.
+→Open URL: https://www.google.co.in.
+→Wait for the page to load.
+→Print a message (URL is opened successfully) on the console.
+→Close the browser.
+
+URL Verification
+Title Verification
+Head and HeadLess Browser
+
+Locaters and WebElements
