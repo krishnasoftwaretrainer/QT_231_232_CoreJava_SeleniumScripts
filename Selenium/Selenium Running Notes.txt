@@ -133,3 +133,67 @@ Title Verification
 Head and HeadLess Browser
 
 Locaters and WebElements
+=====================
+Excepted Result:
+Actuval Result:
+Sam:PAss 
+Not Same:Fail 
+
+URL Verification:
+Excepted URL:https://www.saucedemo.com/
+Actuval URL:https://www.saucedemo.com/
+Pass 
+
+Title Verification:
+Excepted Title:
+Actual Title:
+
+First Selenium Script:
+------------------
+Scenario1:Verify Smoke Testing
+URL: https://www.saucedemo.com/ 
+
+Swag Labs: E-Commerce Domain
+
+Manu Steps Covert into Selenium Script
+Run the Script and Check the Result
+
+1.Open Chrome/Edge/FireFox Browser
+2.Maximize Chrome/Edge/FireFox Browser
+3.Close Chrome/Edge/FireFox Browser
+
+Scenario1:
+---------
+→Launch the Chrome browser.
+→Maximize the browser.
+→Open URL: https://www.google.co.in.
+→Wait for the page to load.
+→Print a message (URL is opened successfully) on the console.
+→Close the browser.
+
+URL Verification
+Title Verification
+Head and HeadLess Browser
+
+Locaters and WebElements
+
+Cross-Browser Testing:Chrome Edge FireFox
+URL:
+1.Open Browser
+2.Maximize the Browser
+3.Enter App URL[Given by Dev Team]
+4.Close Browser
+
+Smoke Testing:
+URL Verification
+Title Verification
+
+for Compare results:
+1.By using if Condition
+2.By using Assertions[TestNG]
+
+equals:Case Sensitive[S]s
+equalsignoreCase[Not an Case Sensitive]
+contains:URL ActuvalURL actuvalurl 
+
+HeadLess Browsers:No UI/GUI 
