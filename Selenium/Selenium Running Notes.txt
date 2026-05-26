@@ -197,3 +197,56 @@ equalsignoreCase[Not an Case Sensitive]
 contains:URL ActuvalURL actuvalurl 
 
 HeadLess Browsers:No UI/GUI 
+==============
+DOM:Document Object Model[HTML Code]
+
+Click Select Enter etc..
+
+WebPages:
+
+Web Elements:
+1.Text Box:Enter/Type: SendKeys("Text");
+2.Text Area:Enter
+
+3.Buttons:Click
+4.Links:Click
+5.RadioButtons:Click
+6.Check Box:Click
+
+7.Dropdowns:Select
+
+Web Locaters: Address 406 416 
+-----------Unique 5:First 2  10:4th  6th 7th  
+1.ID: 
+2.Name:Duplicate
+3.Class Name:Not Allowed[Compound class names not permitted]
+4.LinkText
+5.PartialLinkText
+6.TagName:Comman 
+7.CSS Selector
+8.XPath[Absolute & Relative]
+
+Direct Locaters:
+-------------
+TagName:input
+class:input_error form_input
+id: user-name
+name: user-name
+
+In-Direct Locaters:
+----------------
+LinkText
+PartialLinkText
+CSS 
+XPath
+
+Find the Locater for WebElement
+Perform Operation on WebElement
+
+XPath:
+----
+Syntax: //tagname[@attribute="value"]
+
+For Practice: https://demo.automationtesting.in/Register.html
+https://www.saucedemo.com/
+https://www.facebook.com/
