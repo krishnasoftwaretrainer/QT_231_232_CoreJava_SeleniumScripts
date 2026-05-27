@@ -250,3 +250,119 @@ Syntax: //tagname[@attribute="value"]
 For Practice: https://demo.automationtesting.in/Register.html
 https://www.saucedemo.com/
 https://www.facebook.com/
+===========================================
+Cross-Browser Testing:Chrome Edge FireFox
+URL:
+1.Open Browser
+2.Maximize the Browser
+3.Enter App URL[Given by Dev Team]
+4.Close Browser
+
+Smoke Testing:
+URL Verification
+Title Verification
+
+for Compare results:
+1.By using if Condition
+2.By using Assertions[TestNG]
+
+equals:Case Sensitive[S]s
+equalsignoreCase[Not an Case Sensitive]
+contains:URL ActuvalURL actuvalurl 
+
+HeadLess Browsers:No UI/GUI 
+
+DOM:Document Object Model[HTML Code]
+
+Click Select Enter etc..
+
+WebPages:
+
+Web Elements:
+1.Text Box:Enter/Type: SendKeys("Text");
+2.Text Area:Enter
+
+3.Buttons:Click
+4.Links:Click
+5.RadioButtons:Click
+6.Check Box:Click
+
+7.Dropdowns:Select
+
+Web Locaters: Address 406 416 
+-----------Unique 5:First 2  10:4th  6th 7th  
+1.ID: 
+2.Name:Duplicate
+3.Class Name:Not Allowed[Compound class names not permitted]
+4.LinkText
+5.PartialLinkText
+6.TagName:Comman 
+7.CSS Selector
+8.XPath[Absolute & Relative]
+
+Direct Locaters:
+-------------
+TagName:input
+class:input_error form_input
+id: user-name
+name: user-name
+
+In-Direct Locaters:
+----------------
+LinkText
+PartialLinkText
+CSS 
+XPath
+
+Find the Locater for WebElement
+Perform Operation on WebElement
+
+XPath:
+----
+Syntax: //tagname[@attribute="value"]
+
+For Practice: https://demo.automationtesting.in/Register.html
+https://www.saucedemo.com/
+https://www.facebook.com/
+
+SELENIUM TOPICS:
+----------------
+1. INTRODUCTION OF AUTOMATION TESTING  
+2. BROWSER LAUNCHING:CHROME EDGE FIREFOX 
+3. TITLE AND URL VERIFICATION  
+4. WEB LOCATORS AND WEB ELEMENTS  
+5. FINDELEMENT AND FINDELEMENTS  
+6. WEB DRIVER/WEBELEMENT METHODS  
+7. getText()  
+9. CLEAR METHOD  
+10. RADIO BUTTON  
+11. CHECK BOX  
+21. isDisplayed(),isEnabled() and isSelected()
+12. DROP DOWN  
+14. JAVASCRIPT EXECUTOR  
+15. SCROLL UP AND SCROLL DOWN 
+16. NAVIGATION COMMANDS  
+17. SCREENSHOT 
+18. HEADLESS BROWSER 
+28. WEB TABLE 
+23. FRAME HANDLING  
+24. ALERTS  
+26. FILE UPLOADING AND DOWNLOADING 
+22. WINDOW HANDLING 
+13. WORKING WITH WINDOWS AND TABS
+19. KEYBOARD ACTIONS  ACTIONS 
+20. MOUSEOVER ACTIONS
+21. DRAG AND DROP AND RIGHT CLICK  
+29. AUTOIT FRAMEWORK  
+30. TESTNG FRAMEWORK
+25. ASSERTIONS
+25. WAITS  
+31. MAVEN PROJECT  
+32. DATA DRIVEN FRAMEWORK  
+33. APACHE POI[Excel]  
+34. HYBRID FRAMEWORK  
+35. BDD CUCUMBER FRAMEWORK  
+36. SELENIUM PROJECT
+
+isDisplayed(),isEnabled() and isSelected()
+
