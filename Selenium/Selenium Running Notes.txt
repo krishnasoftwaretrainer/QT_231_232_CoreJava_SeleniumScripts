@@ -366,3 +366,38 @@ https://www.facebook.com/
 
 isDisplayed(),isEnabled() and isSelected()
 
+
+Browser Navigations:
+----------------
+BackWard
+ForWard
+ReFresh
+
+Screen Shot:
+----------
+File sc1 = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+Files.copy(sc1, new File("D:\\QT\\QT_Selenium_225,226,227\\ScreenShots\\ 1SC1.png"));
+
+Web Tables:
+----------
+CRUD:Create Retrive Update Delete
+
+Alerts:
+-------
+driver.switchTo 
+
+Frames:
+----------
+driver.switchTo
+Index 
+ID or Name 
+WebElement
+
+Windows:
+-------
+driver.switchTo
+
+File Upload an Download:
+-----------------------
+
+
