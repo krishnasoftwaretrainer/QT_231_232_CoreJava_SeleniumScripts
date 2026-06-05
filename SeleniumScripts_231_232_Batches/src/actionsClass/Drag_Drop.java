@@ -6,14 +6,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class Drag_Drop {
-
-	public static void main(String[] args) throws InterruptedException {
-		WebDriver driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.navigate().to("https://demoqa.com/droppable");
-		Thread.sleep(3000);
+public class Drag_Drop extends BrowserConfig_Parent
+{
 		
+	public void DragDrop() throws InterruptedException
+	{
+		//BrowserConfig();
 		Actions actions = new Actions(driver);
 		
 		WebElement dragMe = driver.findElement(By.id("draggable"));
@@ -22,6 +20,17 @@ public class Drag_Drop {
 		actions.dragAndDrop(dragMe, dropHere).perform();
 		Thread.sleep(2000);
 		 driver.quit();
+	}
+
+	public static void main(String[] args) throws InterruptedException 
+	{
+		Drag_Drop drag_Drop = new Drag_Drop();
+		drag_Drop.BrowserConfig();
+		drag_Drop.DragDrop();
+	
+		
+		
+		
 	}
 
 }
