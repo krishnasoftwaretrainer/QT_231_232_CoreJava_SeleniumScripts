@@ -17,6 +17,7 @@ public class Title_Verification {
 		String ActuvalTitle=driver.getTitle();
 		
 		System.out.println("ActuvalTitle: "+ActuvalTitle);
+		
 		if(ExceptedTitle.equalsIgnoreCase(ActuvalTitle))
 		{
 			System.out.println("Title Verification: Pass");

@@ -82,7 +82,7 @@ public class TestNG_Annotations {
 		Thread.sleep(2000);
 		login.click();
 		Thread.sleep(3000);
-
+		
 	}
 
 	//@AfterMethod

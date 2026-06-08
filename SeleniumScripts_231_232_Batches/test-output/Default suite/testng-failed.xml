@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG_Scripts.TestNG_Annotations">
+      <class name="testNG_Assertions.Sof_Assertion">
         <methods>
-          <include name="BrowserOpen"/>
-          <include name="SwagInValidLogin"/>
-          <include name="BrowserClose"/>
-          <include name="SwagBlankLogin"/>
+          <include name="SwagValidLogin"/>
         </methods>
-      </class> <!-- testNG_Scripts.TestNG_Annotations -->
+      </class> <!-- testNG_Assertions.Sof_Assertion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

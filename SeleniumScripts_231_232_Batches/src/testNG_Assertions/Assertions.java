@@ -1,16 +1,18 @@
-package testNG_Scripts;
+package testNG_Assertions;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class SwagLoginPage 
+public class Assertions 
 {
-	 WebDriver driver;
+
+	WebDriver driver;
 	 
-	@Test(priority=0,invocationCount=2)
+	@Test(priority=0)
 	public  void SwagValidLogin() throws InterruptedException
 	{   //WOR and WOP [Instance or Non-Static]
 		
@@ -29,12 +31,17 @@ public class SwagLoginPage
 		password.sendKeys("secret_sauce");
 		Thread.sleep(2000);
 		login.click();
-		Thread.sleep(3000);
+		Thread.sleep(2000);
+		String ExceptedURL="https://www.saucedemo.com/invento.html";
+		String ActuvalURL=driver.getCurrentUrl();
+		//Hard Assertion
+		Assert.assertEquals(ExceptedURL, ActuvalURL,"URL not Matching");  //Fail
+		Thread.sleep(2000);
 		driver.quit();
 		
 	}
 	
-	@Test(priority=1,invocationCount=3)
+	@Test(priority=1)
 	public void SwagInvalidLogin() throws InterruptedException
 	{
 		driver=new EdgeDriver();
@@ -52,12 +59,19 @@ public class SwagLoginPage
 		password.sendKeys("adnfadnnv");
 		Thread.sleep(2000);
 		login.click();
+		Thread.sleep(2000);
+		String ExceptedURL="https://www.saucedemo.com/invento.html";
+		String ActuvalURL=driver.getCurrentUrl();
+		//Hard Assertion
+		Assert.assertEquals(ExceptedURL, ActuvalURL,"URL not Matching");  //Fail
+		Thread.sleep(2000);
+		
 		Thread.sleep(3000);
 		driver.quit();
 		
 	}
 	
-	@Test(priority=2,invocationCount=4,enabled=false)
+	@Test(priority=2)
 	public void SwagBlankLogin() throws InterruptedException
 	{
 		driver=new EdgeDriver();
@@ -80,6 +94,4 @@ public class SwagLoginPage
 		
 	}
 	
-	
-
 }

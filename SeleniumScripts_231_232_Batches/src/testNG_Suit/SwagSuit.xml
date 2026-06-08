@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SwagLabsSuite">
+  <test thread-count="5" name="ValidInvalidBlankTest">
+    <classes>
+     <class name="testNG_Suit.SwagLabs_ValidLogin"/>
+      <class name="testNG_Suit.SwagLabs_InValidLogin"/>
+      <class name="testNG_Suit.SwagLabs_BlankLogin"/>
+         </classes>
+  </test> <!-- ValidInvalidBlankTest -->
+</suite> <!-- SwagLabsSuite -->
