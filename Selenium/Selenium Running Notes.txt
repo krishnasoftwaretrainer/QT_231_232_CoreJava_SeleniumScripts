@@ -400,4 +400,148 @@ driver.switchTo
 File Upload an Download:
 -----------------------
 
+Action Class in Selenium:
+---------------------
+KeyBoard Actions:
+Page Down:For Clicking any button on KeyBoard
+Page Up:Release the Clicked button in KeyBoard
+SendKeys:Pass any Value: "c"  "A" "v"
+build():Multiple Actions 
+perform():Perform all or single action
+
+ABCDEFGH 
+
+KeyDown[Click or Press]
+KeyUp[Release]
+SendKeys[Pass the Keys]
+
+Mouse Actions:
+-------------
+1.Double-Click
+2.Right-Click
+3.DragMe
+4.Drag and Drop
+5.Click-and-Hold
+6.MoveByOffSet
+7.Release
+8.MoveToElement
+
+Frame Works:
+-----------
+TestNG FramWork:
+---------
+TestNG:Concepts: JUnit+NUint=TestNG 
+-------
+1.TestNG Library inclusion (.jar / Maven dependency)
+2. No 'main()' method required[Annotations @Test]
+3. TestNG Test Execution(@Test Annotation)
+4. Test Results – Pass / Fail count 
+5. HTML Reports – 'test-output/index.html'
+6. Test priority
+7. Invocation count=3
+	Enabled / Disabled tests
+8. Test Suite execution using `testng.xml`
+9. Failed test re-run – `testng-failed.xml`
+10. TestNG Annotations ('@Test', `@BeforeSuite`, `@AfterSuite`, `@BeforeTest`, `@AfterTest`, `@BeforeClass`, `@AfterClass`, `@BeforeMethod`, '@AfterMethod', `@BeforeGroups`, `@AfterGroups`)
+11. Data-driven testing (`.properties`, `.xlsx`, `@DataProvider`)
+12. Assertions (Hard, Soft) 10TC:P P F P P F P P
+13. Parameters from `testng.xml`
+14. Groups (Smoke, Sanity, Regression)
+
+How to implement OOPS Concepts in Selenium scripts.   
+Methods 
+Constructors
+Inheritence
+Method OverRiding 
+Data Abstraction 
+Interface 
+Encapsulation
+
+TestNG:Next Generation
+JUnit+NUint=TestNG
+Configure TestNG to Eclipse
+ 
+ E-Commerce End To End:
+ ------------
+ Registration Page:V:F IV B:SF 
+ Login Page:V:P/F IV B 
+ Cart Page:F V IV 
+ Payment Page:V IV 
+ Track Order Page:V IV 
+ LogOut Page:V IV 
+ 
+ Manual:10TC:90P 1F Fixed Re-Testing Regression
+ 
+Assertions:Validations[Functionl]
+---------
+V V:ER:Open AR:Error
+B B:ER:EM AR:Open 
+IV IV:ER:EM AR:Open 
+
+Assert Equals:  5==5 P 6==5F 
+Assert NotEquals:5==5 F 6==5P 
+
+Assert True 
+Assert False
+
+Assert Null 
+Assert Not Null 
+
+1.Hard Assertion:TC1 TC2 TC3   TC4 TC5
+				  F   			       :1F 
+
+2.Soft Assertion:TC1 TC2 TC3 TC4 TC5
+				  F   P   F   F   P :2P 3F 
+
+AssertAll();
+
+Interpreter:1 2 3[Error] 4 5
+Compiler:1 2 3[Error] 4 5
+
+Assertions in Selenium[TestNG]:
+-----------------------------
+Validations:It compares the Excepted vs Actuval, if both are same test case is pass, if both' are not same test case is fail.
+
+Assert Equal:Pass Fail 
+Assert NotEqual:Pass Fail 
+
+Assert True:  >35 Pass Fail 50 Pass 30 Fail
+Assert False: <35 Fail Pass 50 Pass 30 Fail 
+Have Power:Pass Fail 
+Pass Fail 
+
+Assert Null:Pass Fail 
+Assert NotNull:Pass Fail 
+
+1.Hard Assertion:TC1:P TC2:P TC3:F TC4 TC5
+If any TC is fail immediatly stops the next TC execution.
+
+2.Soft Assertion:TC1:P TC2:P TC3:F TC4:P TC5:P
+Even if any TC is Fail,it hold the result and continue excution till end and throws all fail TC result.
+
+getText();
+getAttribute();
+
+Data Driven FrameWork:
+--------------------
+To excutes the script with multiple sets of test data.
+
+Hard Coded Test Data:
+-------
+Hard Code into Soft Code:To store the test data in external files.
+Excel Sheets
+Properties
+
+Here, We are dividing Script and testdata.
+
+@DataPrivder:By using this dataprovider , qa can read the multiple sets of testdata, may that testdata is in your selenium script or external file like Properties file or Excel Sheets.
+
+Object[][]:
+
+Duplicate Script:No Reusablity
+
+These both are External Files:
+Properties:One Set of Test Data 
+Excel Sheets:Multiple Sets of TestData
+
 
