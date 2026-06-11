@@ -534,6 +534,8 @@ Properties
 
 Here, We are dividing Script and testdata.
 
+Data Driven FrameWork:
+---------------------
 @DataPrivder:By using this dataprovider , qa can read the multiple sets of testdata, may that testdata is in your selenium script or external file like Properties file or Excel Sheets.
 
 Object[][]:
@@ -541,7 +543,56 @@ Object[][]:
 Duplicate Script:No Reusablity
 
 These both are External Files:
+
 Properties:One Set of Test Data 
+URL:One 
+Locaters:One 
+TestData:Multiple Sets Data
+
 Excel Sheets:Multiple Sets of TestData
 
+WorkBook
+Sheet
+Rows 
+Cells
+
+Create Sheet
+Write Data in Single Cell and Multiple Cells and Multiple Rows 
+
+Read Data from Single Cell and Multiple Cells and Multiple Rows
+
+TestData:Stored into Excel Sheet 
+
+In Excat sheets rows and columns we count by using Index values:
+Index values starts from 0 and ends at n-1
+0 1 2 3 4 here n=5 n-1 5-1=4
+
+ApachePOI:
+-------- Version of My MS Excel:
+HSSF:<2005 HSSF Sheet Row Cell 
+XSSF:>2005 XSSF Sheet Row Cell
+XSSFWorkbook 
+XSSFSheet
+XSSFRow 
+XSSFCells
+
+For Download ApachePOI: https://archive.apache.org/dist/poi/release/bin/ 
+
+InputStream:Read the data from Excel Sheets 
+Scanner Class:Read the data from Console
+System.in 
+
+OutPutStream:To print/Store the data in Excel or Console
+
+Create Single Sheet
+Create Multiple Sheets 
+
+Write Data into Single Cell 
+Write Data into Multiple Cells[Single Row]
+Write Data into Multiple Rows[Multiple Cells]
+
+Read Data from Single Cell
+Read Data from Multiple Cells[Single Row]
+Read Data from Multiple Rows  
+ 
 
