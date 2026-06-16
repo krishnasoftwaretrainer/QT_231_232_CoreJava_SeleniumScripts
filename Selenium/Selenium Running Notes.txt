@@ -596,3 +596,62 @@ Read Data from Multiple Cells[Single Row]
 Read Data from Multiple Rows  
  
 
+RC	RC	RC	RC	RC
+00 	01 	02 	03 	04 
+
+10 	11 	12 	13 	14 
+
+20 	21 	22 	23 	24
+
+30 	31 	32 	33 	34
+
+40 	41 	42 	43 	44
+
+DataDriven FrameWork:
+-------------------
+Step1:Store your TestData into ExcelSheet Using ApachePOI 
+
+Step2:Read the Stored Testdata by using ApachePOI
+
+Step3:Read the URL and Locaters from Properties file
+
+Step4:Use the Stored Testdata in your Selenium Script[SWagLabs Login Page]
+
+In Selenium or EclipseIDE, we can create two types of Projects.
+
+1.Java Project:
+src/ 
+A.No pre-define project structure.
+B.Add all required .jar or librarys manually.
+C.In future when ever .jar or librarys versions are updated, need to update manually.
+D.As a Automation test engineer always check the update of .jars and update manually.
+E.Java Project only supports for Small Selenium Projects or Practice purpose.
+F.Java Project not supporting for CI/CD.
+
+2.Maven Project
+--------
+Create Simple Maven Project: After Create Maven Project Update JRE Version[Default Version:1.8]
+
+
+A.In Maven Project there is an Pre-Define Structure.
+src/main/java 
+src/main/resources
+src/test/java
+src/test/resources
+B.Adding .jar or Library in Maven Project, In Maven these all available in Dependecisis formet not an direct .jar.
+Maven Repository:https://mvnrepository.com/
+Required dependency add in pom.xml file.
+C.In future if any versions are updated, just goto the dependency and change the version number and save it, it automtically updates the .jar versions.
+
+Waits 
+Page Object Model FrameWork:
+---------------------
+Hybrid FrameWork
+
+BDD Cucumber FrameWork
+CI CD 
+Git and GITHub 
+Jenkins
+GITHub Actions
+Project:Assignment and Mini Project
+
