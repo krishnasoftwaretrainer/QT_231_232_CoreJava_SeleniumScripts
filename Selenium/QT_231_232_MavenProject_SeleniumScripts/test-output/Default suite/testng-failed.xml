@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dataDrivenFrameWork.SwagLabsLogin_ExcelData_DataDriven_PropertyFile">
+      <class name="pom.SwagLogin_Test_By">
         <methods>
-          <include name="SwagLabsLoginTest"/>
-          <include name="BrowserTearDown"/>
+          <include name="SwagInValidLoginTest"/>
           <include name="BrowserSetup"/>
+          <include name="SwagBlankLoginTest"/>
+          <include name="BrowserTearDown"/>
         </methods>
-      </class> <!-- dataDrivenFrameWork.SwagLabsLogin_ExcelData_DataDriven_PropertyFile -->
+      </class> <!-- pom.SwagLogin_Test_By -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

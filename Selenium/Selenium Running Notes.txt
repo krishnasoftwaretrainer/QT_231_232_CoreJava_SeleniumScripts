@@ -655,3 +655,35 @@ Jenkins
 GITHub Actions
 Project:Assignment and Mini Project
 
+POM:Page Object Model FrameWork:
+----------------
+Locaters+Methods+Excution=Selenium Script
+
+Locaters+Methods: 
+Test Execution:
+
+By 
+@FindBy:PageFactoy
+
+DataDriven:
+URL+Locaters:Properties File 
+TestData:Excel Sheets 
+Test Class/Excution:
+
+POM:
+Locaters:POM 
+
+@FindBy completely replaced by driver.findElement
+
+
+Hybrid FrameWork:
+----------
+BaseClass:Inheritence[extends]
+URL:Properties File[Store & Read]
+Locaters & Methods:POM[By & PageFactoy]
+TestData:Excel Sheets[DataDriven] 
+Test Excution:Run
+
+One Class: Browser+URL+Locaters+Methods+TestData
+
+
