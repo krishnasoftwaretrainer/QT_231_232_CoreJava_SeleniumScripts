@@ -1,0 +1,20 @@
+1. NoSuchElementException: Element is not found on the page with the given locator.
+2. NoSuchWindowException: Trying to switch to a window that does not exist or is already closed.
+3. NoSuchFrameException: Frame ID/name/index does not exist.
+4. NoSuchAlertException: Alert is not present when switching.
+5. StaleElementReferenceException: Element becomes invalid (DOM refreshed, page reloaded, element changed).
+6. ElementNotVisibleException: Element is in DOM but not visible for interaction.
+7. ElementClickInterceptedException: Click action is blocked by another element (ads, overlays, loaders).
+8. ElementNotInteractableException: Element is visible but not ready to interact (disabled, timing issue).
+9. TimeoutException: ExplicitWait did not find the element within the given time.
+10. InvalidElementStateException: Trying to perform invalid action (e.g., typing in a disabled textbox).
+11. WebDriverException: Generic exception from WebDriver (browser crash, driver issues).
+12. SessionNotFoundException: Session ended or browser closed unexpectedly.
+13. InvalidSelectorException: Wrong locator syntax (invalid XPath or CSS).
+14. MoveTargetOutOfBoundsException: Actions class tries to move cursor outside visible screen.
+15. JavascriptException: Error inside JavaScript execution through JavaScriptExecutor.
+16. UnhandledAlertException: Alert pops up and WebDriver cannot continue until alert is handled.
+17. UnexpectedAlertPresentException: Unexpected alert interrupts script.
+18. IllegalStateException: Driver executable not found or wrong driver path.
+19. NoSuchAttributeException: Trying to fetch an attribute that does not exist.
+20. InvalidArgumentException: Bad arguments: invalid URL, wrong capability, null values, etc.

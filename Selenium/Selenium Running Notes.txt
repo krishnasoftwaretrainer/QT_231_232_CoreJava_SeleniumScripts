@@ -686,4 +686,55 @@ Test Excution:Run
 
 One Class: Browser+URL+Locaters+Methods+TestData
 
+Synchrnization in Selenium:
+--------------------
+100:A B C D +5:A C G T :
 
+Selenium Scripts:EclipseIDE:Run/Execute
+URL UserName Password LoginButton:2s 
+LogOut:NoSuchElementException
+
+Network Memory BackEnd Database etc...
+
+Web App/ Web Page
+
+Selenium does not have inbuilt or default or Automatic wait system.
+
+5 Operations:One by one URL USer Pass LOg LogOut
+
+Waits: Your Selenium script must wait the specific time for checking the availablity of WebElements, after specific time still element is not available then throw the exception.
+-----
+10s
+WithOut Waits:LogOut:NoSuchElementException
+With Waits:10s:10s:Click 
+
+1.Static Wait[Fixed]
+Thread.sleep(3000);
+Max:3s
+
+
+2.Dynamic Waits[Changes Dynamically]
+A.Implicit:Global Wait:Common for all webelemnts 
+One implicit wait statement work with all the statements in your script.
+
+Syntax: driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+Here Max Waiting time is 5s Minimum:0s 
+
+->It is working only for driver.findElement
+
+->It only finds the NoSuchElementException only.
+
+->It is waiting/checking the webelement is visible on DOM page or not.
+
+->If it is visible performs the operation
+Not available waiting upto given time. 
+
+B.Explicit:Local Wait:Dynamic Wait 
+
+->Working with specific element
+ElementIsPresent()
+elementToBeClickable()
+visibilityOfElementLocated()
+alertIsPresent()
+
+WebDriverWait wait=new WebDriverWait(driver)
