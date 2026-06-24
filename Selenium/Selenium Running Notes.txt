@@ -793,6 +793,14 @@ TC#1=Feature1
 .feature Run 
 BA:Business Analyst 
 
+Dependecisis:
+----------
+Add Selenium Dependency
+Add cucumber-java Dependency
+Add junit Dependency
+Add cucumber-junit Dependency
+
+
 Feature:Registration for Flipkart
 Scenario:Successful Registration
 Given user launches browser
@@ -801,6 +809,17 @@ And user enter valid Email "Krishna@123"
 And user enter valid password "12345"
 And click on Reg button
 Then user should see the Successful Message
+
+Here:
+----
+Feature:High-Level Functionlity
+Scenario->Test Case
+Given->Pre-Condition
+When:Action 
+And/But:Additional Steps 
+Then:Excepted Result
+
+Run this feature file by using Cucumber tool, it generates the empty stepDefinations then implement the empty methods. 
 
 Feature:Registration for Flipkart
 Scenario:Successful Registration
@@ -867,3 +886,40 @@ Implement stepDefinations
 Create RunnerClass
 Excute RunnerClass
 Analysis Reports
+
+Diff in TestNG and JUnit Assertions:
+---------
+Only packages are different,remaining all are same 
+import org.testng.Assert;
+import org.junit.Assert;
+
+Cucumber Runner Class:
+-----------
+features = "src/test/resources/features",
+glue = "stepdefinitions",
+plugin = {"pretty", "html:target/cucumber-reports.html"},
+monochrome = true
+
+features=your feature file path
+glue=stepdefinitions package name 
+plugin=Report in pretty formet and report path 
+monochrome=output in console
+
+
+Steps to Create BDD Cucumber FrameWork:
+-----------------------------------
+Step1:Create Maven Project
+Step2:Add required Dependecisis
+Add Selenium Dependency
+Add cucumber-java Dependency
+Add junit Dependency
+Add cucumber-junit Dependency
+Step3:Ctrl+S or Run Maven Build[clean install]
+Step4:Add Cucumber Plugin in IDE[Eclipse MarketPlace] 
+Step5:Create/Write Feature [SwagValidLogin.feature]
+Step6:Run this feature file
+Step7:Implement Methods/Write Selenium Script
+
+Scenario Outline
+Hooks 
+TestNG Test Runner
