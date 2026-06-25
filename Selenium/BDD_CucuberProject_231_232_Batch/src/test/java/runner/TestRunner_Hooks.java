@@ -8,12 +8,12 @@ import io.cucumber.junit.CucumberOptions;
 		
 		//features = "src/test/resources/Features/SwagInvalidLogin.feature",
 		//features = "src/test/resources/Features",
-		features = "src/test/resources/Features/SwagLoginAllTestData_ScenarioOutLine.feature",
-		glue = "stepdefinitions",
+		features = "src/test/resources/Features/Hooks_SwagLogin_ScenarioOutLine.feature",
+		glue = {"stepdefinitions","hooks"},
 		plugin = {"pretty", "html:target/cucumber-reports.html"},
 		monochrome = true
 )
-public class TestRunner 
+public class TestRunner_Hooks 
 {
 
 }
