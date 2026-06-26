@@ -923,3 +923,97 @@ Step7:Implement Methods/Write Selenium Script
 Scenario Outline
 Hooks 
 TestNG Test Runner
+
+Valid Valid Login
+Invalid Invalid Login
+Valid Invalid
+Invalid Valid
+Blank Valid
+Valid Blank
+Blank Blank
+
+Base Class:
+
+Hooks:
+-----
+@Before @After
+
+Complete BDD Cucumber FrameWork
+
+Selenium Project:
+---------------
+Project:Application
+
+Clients giving the project to IT Company.
+IT Company Develop, Test and Delivery the Project to Client.
+Client using that app to their business.
+
+Projects:Client and It Company:Different
+Services Based Company:
+
+Client:Krishna Travels:5 Buses
+Offline:Office Ameerpet 
+Online:App 
+
+TCS:What is your Requirements.Budget Time
+Online Bus Ticket or Reservation booking App
+Project:Domain:Banking Insurance TicketBooking E-Commerce OnlineMeeting etc..
+
+Modules:Part of App 
+Functions:Developers STE Delivery
+
+From:Hyd  To:Vja 27th 3T 4 Buses 1T
+
+TSRTC IRCTC 
+
+Project:Client and It Company:Same 
+
+E-Commerce Project:
+-------
+Software Test Engineers:STE or SDET 
+End-To-End Testing:
+Manual[STLC] and Automation[ATLC]
+Goal:To delivery Quality app to Client.
+
+Project:Domain:E-Commerce
+Application:DemoBlaze [https://www.demoblaze.com/index.html] 
+
+Brides of Telugu:
+https://www.bridesoftelugu.com/vendors
+
+Manual[STLC]:100% Manual Database API Automation
+
+STLC:RA TP TS TC TE TE:P/F DR DST DRT DC DRO
+
+Automation[ATLC]:
+-----------
+Requirements Analysis
+Convert Manual TestCases to Selenium Script
+
+1.Registration[SignUp] Page
+2.Login Page 
+3.Search Products
+4.Add to Cart
+5.Checkout or Payment or Place Order
+6.Order History
+7.Track Order 
+8.LogOut
+
+Sign up Page Testing Automation:
+-----------------
+FrameWork:Hybrid or BDD Cucumber
+
+Hybrid FrameWork:
+BaseClass:Browser Config
+Properties:Store URL 
+POM:Locators and Methods
+ApachePOI:Excel Test Data:
+VU VP,VU IVP,IVU VP,IVU IVP,VU B,IVU B,B VP,B IVP, B B: 9Methods @DataPrivder
+Test Class:TestNG TestSuit 
+Assertions
+
+BDD Cucumber:
+-----------
+Feature File:Scenario Outline
+stepDefinations
+TestRunner:JUnit or TestNG
