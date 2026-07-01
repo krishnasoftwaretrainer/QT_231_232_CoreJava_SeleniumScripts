@@ -1,0 +1,470 @@
+
+HP@DESKTOP-DCUKDOL MINGW64 ~
+$ git --version
+git version 2.55.0.windows.1
+
+HP@DESKTOP-DCUKDOL MINGW64 ~
+$ cd "D:\QT\QT 231_232"
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232
+$ ls -a
+./  ../
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232
+$ git init
+Initialized empty Git repository in D:/QT/QT 231_232/.git/
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        S1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        S1.txt
+        S2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        S1.txt
+        S2.txt
+        S3.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        S1.txt
+        S2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        S1.txt
+        S2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        S1.txt
+        S2.txt
+        S3.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git add "S1.txt"
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   S1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        S2.txt
+        S3.txt
+
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   S1.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   S1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        S2.txt
+        S3.txt
+
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   S1.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   S1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        S2.txt
+        S3.txt
+
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   S1.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    S1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        S2.txt
+        S3.txt
+
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   S1.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   S1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        S2.txt
+        S3.txt
+
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   S1.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   S1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        S2.txt
+        S3.txt
+
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   S1.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   S1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        S3.txt
+
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git add .
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   S1.txt
+        new file:   S2.txt
+        new file:   S3.txt
+
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   S1.txt
+        new file:   S2.txt
+        new file:   S3.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   S2.txt
+
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   S1.txt
+        new file:   S2.txt
+        new file:   S3.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   S2.txt
+        modified:   S3.txt
+
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   S1.txt
+        new file:   S2.txt
+        new file:   S3.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   S1.txt
+        modified:   S2.txt
+        modified:   S3.txt
+
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   S1.txt
+        new file:   S2.txt
+        new file:   S3.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    S1.txt
+        deleted:    S2.txt
+        deleted:    S3.txt
+
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   S1.txt
+        new file:   S2.txt
+        new file:   S3.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   S1.txt
+        modified:   S2.txt
+        modified:   S3.txt
+
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git commit -m "S1 S2 S3 Files FirstTime"
+[master (root-commit) 97681a0] S1 S2 S3 Files FirstTime
+ 3 files changed, 5 insertions(+)
+ create mode 100644 S1.txt
+ create mode 100644 S2.txt
+ create mode 100644 S3.txt
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   S1.txt
+        modified:   S2.txt
+        modified:   S3.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git remote add origin https://github.com/krishnasoftwaretrainer/QT_231-232-Git-GitHub.git
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 400 bytes | 400.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/krishnasoftwaretrainer/QT_231-232-Git-GitHub.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   S1.txt
+        modified:   S2.txt
+        modified:   S3.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git commit -m "S1 S2 S3 Files SecondTime"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   S1.txt
+        modified:   S2.txt
+        modified:   S3.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git push -u origin master                                  branch 'master' set up to track 'origin/master'.
+Everything up-to-date
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git add .
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git commit -m "S1 S2 S3 Files SecondTime1"
+[master 0ea0fc3] S1 S2 S3 Files SecondTime1
+ 3 files changed, 9 insertions(+), 2 deletions(-)
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git push -u origin master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 598 bytes | 598.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/krishnasoftwaretrainer/QT_231-232-Git-GitHub.git
+   97681a0..0ea0fc3  master -> master
+branch 'master' set up to track 'origin/master'.
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git add .
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git commit -m "S1 S2 S3 Files SecondTime2"
+[master ab1d434] S1 S2 S3 Files SecondTime2
+ 1 file changed, 2 insertions(+)
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 317 bytes | 317.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/krishnasoftwaretrainer/QT_231-232-Git-GitHub.git
+   0ea0fc3..ab1d434  master -> master
+branch 'master' set up to track 'origin/master'.
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
+$

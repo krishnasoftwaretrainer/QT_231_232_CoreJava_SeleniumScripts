@@ -1,0 +1,72 @@
+CI/CD:Continues Integration and Continues Deployment[Tools:Jenkins & GitHub Actions]
+
+GIT and GITHUB:****** 
+---------------
+GIT[Local]:Version Control System[VCS]
+GitHub[Cloud]:Cloud Repository
+
+VCS:
+---
+SDLC: Agile Model[Sprints]:Speific Time 
+100Req:WaterFall Agile
+Sprint1:4Weeks:20days:5Req[Part of App]
+RG RA Design Dev Testing Deploy
+
+Version1
+
+Sprint2:Version2 
+Sprint3:Version3 
+
+App=Version1+2+3
+
+Local Machine:Only access by me only.
+Cloud:
+
+Tracking the Changes:
+
+DevTeam:3Dev:V7:10k LOC 20days:3k 3k 4k  
+Dev1:3k
+Dev2:3k
+Dev3:4k 
+
+Cloud:TestNG:5 Class Script:Local Machine:
+GitHub:Push WhatsUP Gmail Telegram PenDrive Cabel 
+
+3k+3K+4k=10k
+
+New Code Modify Delete:VCS 
+
+9k Selenium Script:2ATE 
+
+
+Amazon App:
+---------
+VCS:Tracking the Changes.
+Git Commands:Version Control System
+GitHub:Manual and Commands
+
+Local System:Selenium[EclipseIDE]
+Local Folder[Project]:New or Normal
+Git Folder[Repo]:Now git track the changes.
+Create Update Delete Rename
+Staging Area
+Commit
+Push
+Cloud:
+
+Git:.exe install in local machine
+Latest version: 2.55.0
+Git bash:Use by Commands 
+Verify Installation: git --version
+git version 2.55.0.windows.1
+
+git init
+git commit -m "first commit"
+git remote add origin https://github.com/krishnasoftwaretrainer/QT_231-232-Git-GitHub.git
+git push -u origin main
+
+GitHub:Cloud:Create Account:Create Repo[UI]
+Web App 
+DeskTop App 
+
+https://github.com/krishnasoftwaretrainer/QT_231-232-Git-GitHub.git
