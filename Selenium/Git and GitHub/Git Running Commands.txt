@@ -1,4 +1,5 @@
-
+Day-1 Commands:
+--------------
 HP@DESKTOP-DCUKDOL MINGW64 ~
 $ git --version
 git version 2.55.0.windows.1
@@ -468,3 +469,457 @@ branch 'master' set up to track 'origin/master'.
 
 HP@DESKTOP-DCUKDOL MINGW64 /d/QT/QT 231_232 (master)
 $
+
+Day-2 Commands
+-----------
+
+HP@DESKTOP-DCUKDOL MINGW64 ~
+$ cd "C:\Users\HP\eclipse-workspace_232Batch\SampleSeleniumProjectGitHub"
+
+HP@DESKTOP-DCUKDOL MINGW64 ~/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub
+$ ls -a
+./   .classpath  .settings/  src/     test-output/
+../  .project    pom.xml     target/
+
+HP@DESKTOP-DCUKDOL MINGW64 ~/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub
+$ git init
+Initialized empty Git repository in C:/Users/HP/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub/.git/
+
+HP@DESKTOP-DCUKDOL MINGW64 ~/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub (master)
+$ ls -a
+./   .classpath  .project    pom.xml  target/
+../  .git/       .settings/  src/     test-output/
+
+HP@DESKTOP-DCUKDOL MINGW64 ~/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .classpath
+        .project
+        .settings/
+        pom.xml
+        src/
+        target/
+        test-output/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HP@DESKTOP-DCUKDOL MINGW64 ~/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub (master)
+$ git add .
+warning: in the working copy of 'test-output/Default suite/Default test.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test-output/Default suite/Default test.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test-output/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test-output/jquery-3.6.0.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test-output/junitreports/TEST-seleniumScripts.SwagValidLogin.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test-output/testng-reports.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test-output/testng-reports.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test-output/testng-reports1.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test-output/testng-reports2.js', LF will be replaced by CRLF the next time Git touches it
+
+HP@DESKTOP-DCUKDOL MINGW64 ~/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .classpath
+        new file:   .project
+        new file:   .settings/org.eclipse.jdt.core.prefs
+        new file:   .settings/org.eclipse.m2e.core.prefs
+        new file:   pom.xml
+        new file:   src/test/java/seleniumScripts/SwagValidLogin.java
+        new file:   target/classes/META-INF/MANIFEST.MF
+        new file:   target/classes/META-INF/maven/SampleSeleniumProjectGitHub/SampleSeleniumProjectGitHub/pom.properties
+        new file:   target/classes/META-INF/maven/SampleSeleniumProjectGitHub/SampleSeleniumProjectGitHub/pom.xml
+        new file:   target/test-classes/seleniumScripts/SwagValidLogin.class
+        new file:   test-output/Default suite/Default test.html
+        new file:   test-output/Default suite/Default test.xml
+        new file:   test-output/bullet_point.png
+        new file:   test-output/collapseall.gif
+        new file:   test-output/emailable-report.html
+        new file:   test-output/failed.png
+        new file:   test-output/index.html
+        new file:   test-output/jquery-3.6.0.min.js
+        new file:   test-output/junitreports/TEST-seleniumScripts.SwagValidLogin.xml
+        new file:   test-output/navigator-bullet.png
+        new file:   test-output/passed.png
+        new file:   test-output/skipped.png
+        new file:   test-output/testng-reports.css
+        new file:   test-output/testng-reports.js
+        new file:   test-output/testng-reports1.css
+        new file:   test-output/testng-reports2.js
+        new file:   test-output/testng-results.xml
+
+
+HP@DESKTOP-DCUKDOL MINGW64 ~/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .classpath
+        new file:   .project
+        new file:   .settings/org.eclipse.jdt.core.prefs
+        new file:   .settings/org.eclipse.m2e.core.prefs
+        new file:   pom.xml
+        new file:   src/test/java/seleniumScripts/SwagValidLogin.java
+        new file:   target/classes/META-INF/MANIFEST.MF
+        new file:   target/classes/META-INF/maven/SampleSeleniumProjectGitHub/SampleSeleniumProjectGitHub/pom.properties
+        new file:   target/classes/META-INF/maven/SampleSeleniumProjectGitHub/SampleSeleniumProjectGitHub/pom.xml
+        new file:   target/test-classes/seleniumScripts/SwagValidLogin.class
+        new file:   test-output/Default suite/Default test.html
+        new file:   test-output/Default suite/Default test.xml
+        new file:   test-output/bullet_point.png
+        new file:   test-output/collapseall.gif
+        new file:   test-output/emailable-report.html
+        new file:   test-output/failed.png
+        new file:   test-output/index.html
+        new file:   test-output/jquery-3.6.0.min.js
+        new file:   test-output/junitreports/TEST-seleniumScripts.SwagValidLogin.xml
+        new file:   test-output/navigator-bullet.png
+        new file:   test-output/passed.png
+        new file:   test-output/skipped.png
+        new file:   test-output/testng-reports.css
+        new file:   test-output/testng-reports.js
+        new file:   test-output/testng-reports1.css
+        new file:   test-output/testng-reports2.js
+        new file:   test-output/testng-results.xml
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        src/test/java/seleniumScripts/SampleTest.java
+        target/test-classes/seleniumScripts/SampleTest.class
+
+
+HP@DESKTOP-DCUKDOL MINGW64 ~/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub (master)
+$ git add .
+
+HP@DESKTOP-DCUKDOL MINGW64 ~/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .classpath
+        new file:   .project
+        new file:   .settings/org.eclipse.jdt.core.prefs
+        new file:   .settings/org.eclipse.m2e.core.prefs
+        new file:   pom.xml
+        new file:   src/test/java/seleniumScripts/SampleTest.java
+        new file:   src/test/java/seleniumScripts/SwagValidLogin.java
+        new file:   target/classes/META-INF/MANIFEST.MF
+        new file:   target/classes/META-INF/maven/SampleSeleniumProjectGitHub/SampleSeleniumProjectGitHub/pom.properties
+        new file:   target/classes/META-INF/maven/SampleSeleniumProjectGitHub/SampleSeleniumProjectGitHub/pom.xml
+        new file:   target/test-classes/seleniumScripts/SampleTest.class
+        new file:   target/test-classes/seleniumScripts/SwagValidLogin.class
+        new file:   test-output/Default suite/Default test.html
+        new file:   test-output/Default suite/Default test.xml
+        new file:   test-output/bullet_point.png
+        new file:   test-output/collapseall.gif
+        new file:   test-output/emailable-report.html
+        new file:   test-output/failed.png
+        new file:   test-output/index.html
+        new file:   test-output/jquery-3.6.0.min.js
+        new file:   test-output/junitreports/TEST-seleniumScripts.SwagValidLogin.xml
+        new file:   test-output/navigator-bullet.png
+        new file:   test-output/passed.png
+        new file:   test-output/skipped.png
+        new file:   test-output/testng-reports.css
+        new file:   test-output/testng-reports.js
+        new file:   test-output/testng-reports1.css
+        new file:   test-output/testng-reports2.js
+        new file:   test-output/testng-results.xml
+
+
+HP@DESKTOP-DCUKDOL MINGW64 ~/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .classpath
+        new file:   .project
+        new file:   .settings/org.eclipse.jdt.core.prefs
+        new file:   .settings/org.eclipse.m2e.core.prefs
+        new file:   pom.xml
+        new file:   src/test/java/seleniumScripts/SampleTest.java
+        new file:   src/test/java/seleniumScripts/SwagValidLogin.java
+        new file:   target/classes/META-INF/MANIFEST.MF
+        new file:   target/classes/META-INF/maven/SampleSeleniumProjectGitHub/SampleSeleniumProjectGitHub/pom.properties
+        new file:   target/classes/META-INF/maven/SampleSeleniumProjectGitHub/SampleSeleniumProjectGitHub/pom.xml
+        new file:   target/test-classes/seleniumScripts/SampleTest.class
+        new file:   target/test-classes/seleniumScripts/SwagValidLogin.class
+        new file:   test-output/Default suite/Default test.html
+        new file:   test-output/Default suite/Default test.xml
+        new file:   test-output/bullet_point.png
+        new file:   test-output/collapseall.gif
+        new file:   test-output/emailable-report.html
+        new file:   test-output/failed.png
+        new file:   test-output/index.html
+        new file:   test-output/jquery-3.6.0.min.js
+        new file:   test-output/junitreports/TEST-seleniumScripts.SwagValidLogin.xml
+        new file:   test-output/navigator-bullet.png
+        new file:   test-output/passed.png
+        new file:   test-output/skipped.png
+        new file:   test-output/testng-reports.css
+        new file:   test-output/testng-reports.js
+        new file:   test-output/testng-reports1.css
+        new file:   test-output/testng-reports2.js
+        new file:   test-output/testng-results.xml
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/test/java/seleniumScripts/SampleTest.java
+        modified:   target/test-classes/seleniumScripts/SampleTest.class
+
+
+HP@DESKTOP-DCUKDOL MINGW64 ~/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .classpath
+        new file:   .project
+        new file:   .settings/org.eclipse.jdt.core.prefs
+        new file:   .settings/org.eclipse.m2e.core.prefs
+        new file:   pom.xml
+        new file:   src/test/java/seleniumScripts/SampleTest.java
+        new file:   src/test/java/seleniumScripts/SwagValidLogin.java
+        new file:   target/classes/META-INF/MANIFEST.MF
+        new file:   target/classes/META-INF/maven/SampleSeleniumProjectGitHub/SampleSeleniumProjectGitHub/pom.properties
+        new file:   target/classes/META-INF/maven/SampleSeleniumProjectGitHub/SampleSeleniumProjectGitHub/pom.xml
+        new file:   target/test-classes/seleniumScripts/SampleTest.class
+        new file:   target/test-classes/seleniumScripts/SwagValidLogin.class
+        new file:   test-output/Default suite/Default test.html
+        new file:   test-output/Default suite/Default test.xml
+        new file:   test-output/bullet_point.png
+        new file:   test-output/collapseall.gif
+        new file:   test-output/emailable-report.html
+        new file:   test-output/failed.png
+        new file:   test-output/index.html
+        new file:   test-output/jquery-3.6.0.min.js
+        new file:   test-output/junitreports/TEST-seleniumScripts.SwagValidLogin.xml
+        new file:   test-output/navigator-bullet.png
+        new file:   test-output/passed.png
+        new file:   test-output/skipped.png
+        new file:   test-output/testng-reports.css
+        new file:   test-output/testng-reports.js
+        new file:   test-output/testng-reports1.css
+        new file:   test-output/testng-reports2.js
+        new file:   test-output/testng-results.xml
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/test/java/seleniumScripts/SampleTest.java
+        modified:   src/test/java/seleniumScripts/SwagValidLogin.java
+        modified:   target/test-classes/seleniumScripts/SampleTest.class
+        modified:   target/test-classes/seleniumScripts/SwagValidLogin.class
+
+
+HP@DESKTOP-DCUKDOL MINGW64 ~/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub (master)
+$ git add .
+
+HP@DESKTOP-DCUKDOL MINGW64 ~/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub (master)
+$ git commit -m "First Selenium Script"
+[master (root-commit) f83ce41] First Selenium Script
+ 29 files changed, 1435 insertions(+)
+ create mode 100644 .classpath
+ create mode 100644 .project
+ create mode 100644 .settings/org.eclipse.jdt.core.prefs
+ create mode 100644 .settings/org.eclipse.m2e.core.prefs
+ create mode 100644 pom.xml
+ create mode 100644 src/test/java/seleniumScripts/SampleTest.java
+ create mode 100644 src/test/java/seleniumScripts/SwagValidLogin.java
+ create mode 100644 target/classes/META-INF/MANIFEST.MF
+ create mode 100644 target/classes/META-INF/maven/SampleSeleniumProjectGitHub/SampleSeleniumProjectGitHub/pom.properties
+ create mode 100644 target/classes/META-INF/maven/SampleSeleniumProjectGitHub/SampleSeleniumProjectGitHub/pom.xml
+ create mode 100644 target/test-classes/seleniumScripts/SampleTest.class
+ create mode 100644 target/test-classes/seleniumScripts/SwagValidLogin.class
+ create mode 100644 test-output/Default suite/Default test.html
+ create mode 100644 test-output/Default suite/Default test.xml
+ create mode 100644 test-output/bullet_point.png
+ create mode 100644 test-output/collapseall.gif
+ create mode 100644 test-output/emailable-report.html
+ create mode 100644 test-output/failed.png
+ create mode 100644 test-output/index.html
+ create mode 100644 test-output/jquery-3.6.0.min.js
+ create mode 100644 test-output/junitreports/TEST-seleniumScripts.SwagValidLogin.xml
+ create mode 100644 test-output/navigator-bullet.png
+ create mode 100644 test-output/passed.png
+ create mode 100644 test-output/skipped.png
+ create mode 100644 test-output/testng-reports.css
+ create mode 100644 test-output/testng-reports.js
+ create mode 100644 test-output/testng-reports1.css
+ create mode 100644 test-output/testng-reports2.js
+ create mode 100644 test-output/testng-results.xml
+
+HP@DESKTOP-DCUKDOL MINGW64 ~/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/test/java/seleniumScripts/SampleTest.java
+        modified:   target/test-classes/seleniumScripts/SampleTest.class
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HP@DESKTOP-DCUKDOL MINGW64 ~/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub (master)
+$ git remote add origin https://github.com/krishnasoftwaretrainer/SeleniumScriptsGithub_231_232.git
+
+HP@DESKTOP-DCUKDOL MINGW64 ~/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub (master)
+$ git push origin master
+Enumerating objects: 46, done.
+Counting objects: 100% (46/46), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (41/41), done.
+Writing objects: 100% (46/46), 46.91 KiB | 4.69 MiB/s, done.
+Total 46 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/krishnasoftwaretrainer/SeleniumScriptsGithub_231_232.git
+ * [new branch]      master -> master
+
+HP@DESKTOP-DCUKDOL MINGW64 ~/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub (master)
+$ git add .
+
+HP@DESKTOP-DCUKDOL MINGW64 ~/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub (master)
+$ git commit -m "Sample Test Modify"
+[master e44bd1f] Sample Test Modify
+ 2 files changed, 2 insertions(+)
+
+HP@DESKTOP-DCUKDOL MINGW64 ~/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub (master)
+$ git push origin master
+Enumerating objects: 20, done.
+Counting objects: 100% (20/20), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (11/11), 998 bytes | 998.00 KiB/s, done.
+Total 11 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/krishnasoftwaretrainer/SeleniumScriptsGithub_231_232.git
+   f83ce41..e44bd1f  master -> master
+
+HP@DESKTOP-DCUKDOL MINGW64 ~/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        src/test/java/seleniumScripts/SwagInValidLogin.java
+        target/test-classes/seleniumScripts/SwagInValidLogin.class
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HP@DESKTOP-DCUKDOL MINGW64 ~/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub (master)
+$ git add .
+
+HP@DESKTOP-DCUKDOL MINGW64 ~/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub (master)
+$ git commit -m "Invalid Login New Script"
+[master bda2665] Invalid Login New Script
+ 2 files changed, 45 insertions(+)
+ create mode 100644 src/test/java/seleniumScripts/SwagInValidLogin.java
+ create mode 100644 target/test-classes/seleniumScripts/SwagInValidLogin.class
+
+HP@DESKTOP-DCUKDOL MINGW64 ~/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub (master)
+$ git push origin master
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (11/11), 2.27 KiB | 2.27 MiB/s, done.
+Total 11 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/krishnasoftwaretrainer/SeleniumScriptsGithub_231_232.git
+   e44bd1f..bda2665  master -> master
+
+HP@DESKTOP-DCUKDOL MINGW64 ~/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub (master)
+$ cd "D:\QT\Pull Selenium Swag Scripts"
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/Pull Selenium Swag Scripts
+$ git clone https://github.com/krishnasoftwaretrainer/SeleniumScriptsGithub_231_232.git
+Cloning into 'SeleniumScriptsGithub_231_232'...
+remote: Enumerating objects: 68, done.
+remote: Counting objects: 100% (68/68), done.
+remote: Compressing objects: 100% (48/48), done.
+remote: Total 68 (delta 12), reused 63 (delta 7), pack-reused 0 (from 0)
+Receiving objects: 100% (68/68), 48.57 KiB | 2.43 MiB/s, done.
+Resolving deltas: 100% (12/12), done.
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/Pull Selenium Swag Scripts
+$ cd "C:\Users\HP\eclipse-workspace_232Batch\SampleSeleniumProjectGitHub"
+
+HP@DESKTOP-DCUKDOL MINGW64 ~/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub (master)
+$ ls -a
+./   .classpath  .project    pom.xml  target/
+../  .git/       .settings/  src/     test-output/
+
+HP@DESKTOP-DCUKDOL MINGW64 ~/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub (master)
+$ git add .
+
+HP@DESKTOP-DCUKDOL MINGW64 ~/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub (master)
+$ git commit -m "Blank Login Script"
+[master e46c8f0] Blank Login Script
+ 2 files changed, 45 insertions(+)
+ create mode 100644 src/test/java/seleniumScripts/SwagBlankLogin.java
+ create mode 100644 target/test-classes/seleniumScripts/SwagBlankLogin.class
+
+HP@DESKTOP-DCUKDOL MINGW64 ~/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub (master)
+$ git remote add origin https://github.com/krishnasoftwaretrainer/SeleniumScriptsGithub_231_232.git
+error: remote origin already exists.
+
+HP@DESKTOP-DCUKDOL MINGW64 ~/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub (master)
+$ git push origin master
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (11/11), 2.21 KiB | 1.10 MiB/s, done.
+Total 11 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/krishnasoftwaretrainer/SeleniumScriptsGithub_231_232.git
+   bda2665..e46c8f0  master -> master
+
+HP@DESKTOP-DCUKDOL MINGW64 ~/eclipse-workspace_232Batch/SampleSeleniumProjectGitHub (master)
+$ cd "D:\QT\Pull Selenium Swag Scripts"
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/Pull Selenium Swag Scripts
+$ git pull origin master
+fatal: not a git repository (or any of the parent directories): .git
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/Pull Selenium Swag Scripts
+$ cd "D:\QT\Pull Selenium Swag Scripts\SeleniumScriptsGithub_231_232"
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/Pull Selenium Swag Scripts/SeleniumScriptsGithub_231_232 (master)
+$ git pull origin master                                         remote: Enumerating objects: 18, done.
+remote: Counting objects: 100% (18/18), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 11 (delta 2), reused 11 (delta 2), pack-reused 0 (from 0)
+Unpacking objects: 100% (11/11), 2.19 KiB | 36.00 KiB/s, done.
+From https://github.com/krishnasoftwaretrainer/SeleniumScriptsGithub_231_232
+ * branch            master     -> FETCH_HEAD
+   bda2665..e46c8f0  master     -> origin/master
+Updating bda2665..e46c8f0
+Fast-forward
+ src/test/java/seleniumScripts/SwagBlankLogin.java  |  45 +++++++++++++++++++++
+ .../seleniumScripts/SwagBlankLogin.class           | Bin 0 -> 2043 bytes
+ 2 files changed, 45 insertions(+)
+ create mode 100644 src/test/java/seleniumScripts/SwagBlankLogin.java
+ create mode 100644 target/test-classes/seleniumScripts/SwagBlankLogin.class
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/Pull Selenium Swag Scripts/SeleniumScriptsGithub_231_232 (master)
